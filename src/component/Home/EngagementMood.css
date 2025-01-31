@@ -1,0 +1,64 @@
+.engagement-model h1 {
+  font-size: 3rem;
+  font-weight: 600;
+  font-family: "Clash Display", sans-serif;
+}
+.engagement-model-div {
+  border-radius: 100px;
+  padding: 40px 35px;
+}
+.engagement-model-inner-div {
+  border-radius: 80px;
+  padding: 40px 40px;
+  background-color: #fff;
+  height: 78vh;
+}
+.engagement-model-inner-div div p {
+  font-size: 1rem;
+}
+.engagement-model-inner-div span {
+  border-radius: 50%;
+  padding: 2px;
+}
+.engagement-model-inner-div img {
+  width: 32px;
+}
+.engagement-model-headings-div {
+  text-align: center;
+  margin: 0;
+}
+.engagement-model-headings-div .header {
+  font-family: "Clash Display", sans-serif;
+  font-weight: 500;
+  font-size: 2.5rem;
+}
+.engagement-model-headings-div .sub-header {
+  font-weight: 500;
+  font-size: 1.05rem;
+}
+.engagement-model-footer {
+  font-weight: 500;
+}
+.engagement-model-button {
+  width: 10rem;
+  padding: 13px 5px;
+}
+.div-one {
+  color: #ff728d;
+  background: #fff;
+}
+.div-two {
+  color: #9747ff;
+  background: #fff;
+}
+.div-one:hover {
+  background: #ff728d;
+  color: #fff;
+}
+.div-two:hover {
+  background: #9747ff;
+  color: #fff;
+}
+/* .engagement-model-button:hover {
+  background-color: red;
+} */

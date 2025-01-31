@@ -1,0 +1,79 @@
+.marginTop {
+  margin-top: 100px;
+}
+
+.homeBanner {
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  box-shadow: 0px 0px 0px 0px #00000040, inset 0 0 0 1000px rgba(0, 0, 0, 0.3);
+  animation: changeBg 20s infinite;
+  transition: 1s ease-in-out;
+}
+
+@keyframes changeBg {
+  0%,
+  25% {
+    background-image: url("../../assets/homeBanner/home-banner.png");
+  }
+  26%,
+  50% {
+    background-image: url("../../assets/homeBanner/home-banner-2.png");
+  }
+  51%,
+  75% {
+    background-image: url("../../assets/homeBanner/home-banner-3.png");
+  }
+  76%,
+  100% {
+    background-image: url("../../assets/homeBanner/home-banner-4.png");
+  }
+}
+
+.home-banner-details {
+  padding-top: 60px;
+}
+.home-banner-details h1 {
+  width: 55%;
+  font-family: "Clash Display", sans-serif;
+  font-weight: 600;
+  font-size: 3.5rem;
+}
+.home-banner-details p {
+  width: 45%;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+}
+.home-learn-more {
+  margin-top: 70px;
+}
+.home-learn-more .quote-button,
+.on-demand-button {
+  padding: 18px 55px;
+}
+
+/* ON DEMAND */
+
+.on-demand {
+  margin: 100px 0;
+  background-color: rgb(230 242 255);
+  border-radius: 100px;
+}
+.on-demand div h1 {
+  font-family: "Clash Display", sans-serif;
+  font-weight: 600;
+  font-size: 3rem;
+}
+.on-demand div p {
+  font-size: 1rem;
+  font-weight: 300;
+}
+.on-demand-button {
+  color: #fff;
+  background-color: #0d6efd;
+}
+.on-demand-button:hover {
+  color: #0d6efd;
+  background-color: #fff;
+}

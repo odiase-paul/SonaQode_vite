@@ -1,0 +1,28 @@
+.navbar {
+  height: 18vh;
+  margin-top: 30px;
+  border-radius: 20px;
+  opacity: 0.93;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+}
+.sonaQodeIcon {
+  width: 200px;
+}
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+.dropdown-menu {
+  margin-top: 0;
+}
+.quote-button {
+  padding: 10px 35px;
+  color: #0e6ba4;
+  background-color: #fff;
+}
+.nav-link {
+  color: #fff;
+}
+.nav-link:hover {
+  color: #1596e6;
+}
