@@ -2,7 +2,8 @@
 
 .our-service-div {
   border-radius: 50px;
-  max-width: 360px;
+  width: 100%;
+  max-width: 560px;
   height: 440px;
   overflow: hidden;
 }
@@ -18,7 +19,8 @@
 }
 .our-service-div img {
   height: 360px;
-  width: 360px;
+  width: 100%;
+  max-width: 560px;
   border-radius: 50px 50px 0px 0px;
   object-fit: cover;
 }
@@ -55,6 +57,9 @@
   padding: 13px 9px;
   border-radius: 49%;
 }
+.why-sonaqode-second-divs header {
+  font-size: 1.3rem;
+}
 
 /* HOW WE WORK */
 
@@ -71,4 +76,67 @@
 
 .how-we-work-background button {
   padding: 18px 55px;
+}
+.how-we-work-background-header {
+  width: 50%;
+}
+@media (max-width: 480px) {
+  .our-service-flex {
+    display: grid;
+    gap: 40px;
+  }
+  .marginTop {
+    margin-top: 70px;
+  }
+  .why-sonaQode {
+    border-radius: 50px;
+    padding: 65px 0px;
+  }
+  .why-sonaQuode-top-div h1 {
+    font-size: 1.875rem;
+  }
+  .why-sonaQode-title {
+    padding: 0 20px;
+    font-size: 0.875rem;
+    text-align: center;
+  }
+  .why-sonaqode-second-divs {
+    border-radius: 40px;
+    width: 85%;
+    max-width: 100%;
+    padding: 40px 30px;
+  }
+  .why-sonaqode-second-divs header {
+    font-size: 1rem;
+  }
+  .why-sonaqode-second-divs p {
+    font-size: 0.875rem;
+  }
+  .why-sonaQode-flex {
+    gap: 20px;
+  }
+  .how-we-work-background {
+    height: 80vh;
+    width: 100%;
+    margin-top: 50px;
+    border-radius: 40px;
+  }
+  .how-we-work-background-top {
+    padding: 50px 20px;
+  }
+  .how-we-work-background h1 {
+    font-size: 1.875rem;
+  }
+  .how-we-work-background p {
+    font-size: 0.875rem;
+  }
+
+  .how-we-work-background-header {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .how-we-work-background button {
+    padding: 12px 30px;
+    font-size: 0.9rem;
+  }
 }

@@ -1,0 +1,43 @@
+.footer {
+  background: #000;
+}
+.footer .header h1 {
+  font-family: "Clash Display", sans-serif;
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+  font-weight: 600;
+}
+.footer .footer-logo {
+  width: 15rem;
+}
+.footer .footer-link {
+  text-decoration: none;
+  color: #fff;
+}
+.footer-link-div header {
+  color: #d1d5db;
+}
+.footer .footer-reserved {
+  border-top: 1px solid #e5e7eb;
+  margin-top: 40px;
+}
+
+@media (max-width: 480px) {
+  .footer .header h1 {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    text-align: center;
+  }
+  .footer-link-div {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .footer .image-logo {
+    display: flex;
+    justify-content: center;
+  }
+  .footer-reserved p {
+    font-size: 0.75rem;
+  }
+}

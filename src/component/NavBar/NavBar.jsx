@@ -2,19 +2,22 @@ import React, { useState } from "react";
 import "./NavBar.css";
 import sonaQodeIcon from "../../image/sonaQodeIcon.webp";
 import { Link, useLocation } from "react-router-dom";
+import password from "../../assets/icons/password.png";
+import code from "../../assets/icons/code.png";
+import chart from "../../assets/icons/chart.png";
 
 const NavBar = () => {
   const location = useLocation();
 
   return (
     <div className="">
-      <nav className="navbar navbar-expand-lg navbar-dark bg-dark px-4 fixed-top  mx-4">
+      <nav className="navbar navbar-expand-lg navbar-dark  px-lg-4 fixed-top  mx-lg-4">
         <div className="container-fluid">
           <Link className="navbar-brand fw-bold fs-2">
-            <img className="sonaQodeIcon" src={sonaQodeIcon} alt="" />
+            <img className="img-fluid sonaQodeIcon" src={sonaQodeIcon} alt="" />
           </Link>
           <button
-            className="navbar-toggler"
+            className="navbar-toggler p-0 border-0"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarNavDropdown"
@@ -24,7 +27,14 @@ const NavBar = () => {
           >
             <span className="navbar-toggler-icon"></span>
           </button>
-          <div className="collapse navbar-collapse  " id="navbarNavDropdown">
+          {/* <div className="overlay" id="overlay"></div> */}
+          <div
+            className="collapse navbar-collapse full-width-collapse"
+            id="navbarNavDropdown"
+          >
+            {/* <button className="close-btn" id="closeNavbar">
+              &times;
+            </button> */}
             <ul className="navbar-nav mx-auto navbar-list-items column-gap-3">
               <li className="nav-item">
                 <Link
@@ -58,7 +68,10 @@ const NavBar = () => {
                   Services
                 </Link>
                 <ul className="dropdown-menu">
-                  <li>
+                  <li className="d-flex mb-4">
+                    <div className="dm-first dropdown-div">
+                      <img className="service-icon" src={code} alt="" />
+                    </div>
                     <Link
                       className={`dropdown-item ${
                         location.pathname === "/softwareDev" ? "text-info" : ""
@@ -68,7 +81,10 @@ const NavBar = () => {
                       Software Development
                     </Link>
                   </li>
-                  <li>
+                  <li className="d-flex mb-4">
+                    <div className="dm-second dropdown-div">
+                      <img className="service-icon" src={chart} alt="" />
+                    </div>
                     <Link
                       className={`dropdown-item ${
                         location.pathname === "/dataAnalytics"
@@ -80,7 +96,10 @@ const NavBar = () => {
                       Data & Analytics
                     </Link>
                   </li>
-                  <li>
+                  <li className="d-flex">
+                    <div className="dm-third dropdown-div">
+                      <img className="service-icon" src={password} alt="" />
+                    </div>
                     <Link
                       className={`dropdown-item ${
                         location.pathname === "/cyberSecurity"

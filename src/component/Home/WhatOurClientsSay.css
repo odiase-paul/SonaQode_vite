@@ -1,0 +1,119 @@
+.what-our-clients-say * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.what-our-clients-say {
+  background-color: #e6f2ff;
+  border-radius: 75px;
+  padding: 50px 0;
+}
+
+.what-our-clients-say-top-div h1 {
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 60px;
+  font-family: "Clash display", sans-serif;
+}
+.what-our-clients-say-top-div p {
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.5rem;
+}
+.what-our-clients-say-top-div {
+  padding: 0 150px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+.what-our-clients-say .prev,
+.what-our-clients-say .next {
+  padding: 12px;
+  background: #fff;
+  border-radius: 5px;
+}
+.what-our-clients-say .prev {
+  opacity: 0.6;
+}
+.what-our-clients-say .next:hover,
+.what-our-clients-say .prev:hover {
+  box-shadow: 0 5px 10px 0 #ccc;
+}
+.w-carousel-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.w-carousel {
+  overflow: hidden;
+}
+.w-carousel-track {
+  gap: 16.5px;
+  flex-wrap: nowrap;
+  transition: transform 0.3s ease-in-out;
+}
+
+.w-carousel-item {
+  width: 32.38%;
+  flex-shrink: 0;
+  border-radius: 40px;
+  background-color: #fff;
+  padding: 100px 20px 40px;
+  transform: translateX(calc(0% - 0px));
+}
+.w-carousel-item .w-icon {
+  background-color: #eff4ff;
+  width: 115px;
+  height: 115px;
+  border-radius: 50%;
+}
+.w-carousel-item .w-icon img {
+  width: 90px;
+  height: 90px;
+  object-fit: contain;
+}
+.w-carousel-item header {
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 1.75rem;
+}
+.w-carousel-item .sub-heading {
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 1.25rem;
+}
+.w-carousel-item .paragraph {
+  font-size: 0.875rem;
+  font-weight: 300;
+  line-height: 26px;
+  color: #667085;
+  font-family: "Poppins", sans-serif;
+}
+
+.what-our-clients-say .country-flag {
+  width: 15px;
+  margin-bottom: 6px;
+}
+
+@media (max-width: 480px) {
+  .what-our-clients-say {
+    border-radius: 50px;
+  }
+  .what-our-clients-say-top-div {
+    padding: 0px;
+  }
+  .what-our-clients-say-top-div h1 {
+    font-size: 1.875rem;
+    line-height: 2.5rem;
+  }
+  .what-our-clients-say-top-div p {
+    font-size: 0.875rem;
+  }
+  .w-carousel-track {
+    gap: 0;
+  }
+  .w-carousel-item {
+    width: 100%;
+  }
+}

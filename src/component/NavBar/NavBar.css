@@ -2,9 +2,11 @@
   height: 18vh;
   margin-top: 30px;
   border-radius: 20px;
-  opacity: 0.93;
+
   font-family: "Poppins", sans-serif;
   font-size: 14px;
+  background: #00000099;
+  backdrop-filter: blur(10px);
 }
 .sonaQodeIcon {
   width: 200px;
@@ -14,15 +16,74 @@
 }
 .dropdown-menu {
   margin-top: 0;
+  padding: 20px;
+  border-radius: 20px;
+}
+.dropdown-menu .dropdown-div {
+  border-radius: 50%;
+  padding: 5px;
+}
+
+.dropdown-menu .dm-first {
+  background: #c0caff;
+}
+.dropdown-menu .dm-second {
+  background: #ffe1a5;
+}
+.dropdown-menu .dm-third {
+  background: #93ff98;
 }
 .quote-button {
   padding: 10px 35px;
   color: #0e6ba4;
-  background-color: #fff;
+  background: #fff;
 }
 .nav-link {
   color: #fff;
 }
 .nav-link:hover {
   color: #1596e6;
+}
+
+/* .overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: auto;
+  background: #1596e6;
+  z-index: 999;
+  display: none;
+}
+.full-width-collapse {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: auto;
+  background: #000;
+  z-index: 1000;
+  display: none;
+  flex-direction: column;
+}
+.close-btn {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  font-size: 30px;
+  background: none;
+  border: none;
+  cursor: pointer;
+} */
+@media (max-width: 480px) {
+  .sonaQodeIcon {
+    width: 180px;
+  }
+  .navbar-toggler-icon {
+    font-size: 20px;
+  }
+  .navbar {
+    padding: 0;
+    margin: 20px;
+  }
 }

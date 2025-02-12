@@ -4,11 +4,12 @@ import { Link } from "react-router-dom";
 import OnDemand from "./OnDemand";
 import OurServices from "./OurServices";
 import EngagementMood from "./EngagementMood";
+import WhatOurClientsSay from "./WhatOurClientsSay";
 
 const Home = () => {
   return (
     <div>
-      <div className="homeBanner d-flex justify-content-start align-items-center">
+      <div className="homeBanner d-flex justify-content-start align-items-lg-center">
         <div className="text-white home-banner-details mx-4">
           <h1>Empowered by tech. Powered by talent.</h1>
           <p>
@@ -28,6 +29,7 @@ const Home = () => {
       <OnDemand />
       <OurServices />
       <EngagementMood />
+      <WhatOurClientsSay />
     </div>
   );
 };

@@ -46,7 +46,7 @@
   font-weight: 300;
 }
 .home-learn-more {
-  margin-top: 70px;
+  margin-top: 60px;
 }
 .home-learn-more .quote-button,
 .on-demand-button {
@@ -58,7 +58,7 @@
 .on-demand {
   margin: 100px 0;
   background-color: rgb(230 242 255);
-  border-radius: 100px;
+  border-radius: 80px;
 }
 .on-demand div h1 {
   font-family: "Clash Display", sans-serif;
@@ -71,9 +71,55 @@
 }
 .on-demand-button {
   color: #fff;
-  background-color: #0d6efd;
+  background-color: #0e6ba4;
 }
 .on-demand-button:hover {
-  color: #0d6efd;
+  color: #0e6ba4;
   background-color: #fff;
+}
+
+@media (max-width: 480px) {
+  .homeBanner {
+    height: 630px;
+    align-items: end;
+  }
+  .home-banner-details {
+    padding-bottom: 60px;
+  }
+  .home-banner-details h1 {
+    width: 100%;
+    font-weight: 600;
+    font-size: 1.5rem;
+  }
+  .home-banner-details p {
+    width: 100%;
+    font-weight: 300;
+  }
+  .home-learn-more {
+    margin-top: 40px;
+  }
+  .on-demand {
+    border-radius: 50px;
+  }
+  .home-learn-more .quote-button,
+  .on-demand-button {
+    padding: 12px 30px;
+    font-size: 0.875rem;
+  }
+  .on-demand-button {
+    margin-top: 20px;
+  }
+  .on-demand div h1 {
+    font-size: 1.875rem;
+  }
+  .on-demand .on-demand-top-div {
+    padding: 50px 25px 0px;
+  }
+  .on-demand div p {
+    font-size: 0.875rem;
+    font-weight: 300;
+  }
+  .on-demand-top-div-img {
+    margin-top: 35px;
+  }
 }

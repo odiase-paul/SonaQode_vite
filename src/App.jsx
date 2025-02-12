@@ -10,6 +10,8 @@ import CorporateCulture from "./component/CorporateCulture/CorporateCulture";
 import ContactUs from "./component/ContactUs/ContactUs";
 import Home from "./component/Home/Home";
 import GetQuote from "./component/GetQuote/GetQuote";
+import Footer from "./component/Footer/Footer";
+import PrivacyPolicy from "./component/PrivacyPolicy/PrivacyPolicy";
 function App() {
   return (
     <div>
@@ -23,7 +25,9 @@ function App() {
         <Route path="/corporateCul" element={<CorporateCulture />} />
         <Route path="/contactUs" element={<ContactUs />} />
         <Route path="/getQuote" element={<GetQuote />} />
+        <Route path="/privacy-policy" element={<PrivacyPolicy />} />
       </Routes>
+      <Footer />
     </div>
   );
 }

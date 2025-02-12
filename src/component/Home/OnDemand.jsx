@@ -5,8 +5,8 @@ const OnDemand = () => {
   return (
     <>
       <div className="on-demand mx-4">
-        <div className="row p-5 d-flex justify-content-start align-items-center gap-0">
-          <div className="col-lg-7 p-0 d-flex flex-column px-1">
+        <div className="on-demand-top-div row px-lg-5 pt-lg-5 d-flex justify-content-start align-items-lg-center gap-0">
+          <div className="col-lg-7 p-0 d-flex flex-column mb-sm-4 px-lg-1">
             <h1 className="mb-3">
               On-Demand Talent Solution Helping You Thrive
             </h1>
@@ -22,16 +22,16 @@ const OnDemand = () => {
               Allowing you to focus on growing your business while we expertly
               manage your staffing needs
             </p>
-            <div>
+            <div className="">
               <Link to="aboutUs">
-                <button className="btn rounded-pill border-0 on-demand-button mt-4">
+                <button className="btn rounded-pill border-0 on-demand-button">
                   Learn More
                 </button>
               </Link>
             </div>
           </div>
-          <div className="col-lg-5">
-            <img width="450" src={homeBanner} alt="" />
+          <div className="on-demand-top-div-img col-lg-5">
+            <img className="img-fluid " width="450" src={homeBanner} alt="" />
           </div>
         </div>
       </div>

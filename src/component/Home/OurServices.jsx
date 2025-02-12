@@ -79,7 +79,7 @@ const OurServices = () => {
   return (
     <div className="mx-4 our-service">
       <h1 className="d-flex justify-content-center mb-5">Our Services</h1>
-      <div className="d-flex justify-content-between mb-5">
+      <div className="d-lg-flex justify-content-between column-gap-5 our-service-flex">
         {serviceDetails.map((items, i) => {
           return (
             <div
@@ -118,14 +118,14 @@ const OurServices = () => {
               business faces promptly.
             </p>
           </div>
-          <div className="row gap-5">
+          <div className="row gap-lg-5 why-sonaQode-flex">
             {whySonaQuode.map((items, i) => {
               return (
                 <div className="why-sonaqode-second-divs col-6 m-auto" key={i}>
                   <span style={{ backgroundColor: items.backGround }}>
                     <img className="" src={items.icon} alt="" />
                   </span>
-                  <header className="mt-4 mb-1 fs-5 fw-bold ">
+                  <header className="mt-4 mb-1 fw-bold ">
                     {items.heading}
                   </header>
                   <p className="text-secondary">{items.paragraph}</p>
@@ -135,16 +135,18 @@ const OurServices = () => {
           </div>
         </div>
       </div>
-      <div className="how-we-work-background d-flex align-items-end">
-        <div className="p-5 mb-3 w-50">
-          <h1 className="text-white ">How We Work</h1>
-          <p className="text-white mt-4 mb-5 fw-light">
-            We recognise the unique needs of every business, understanding that
-            a one size fits all approach is inadequate. That's why we emphasise
-            simplicity and flexibility in our engagements, tailored to your
-            convenience on demand.
-          </p>
-          <div className="">
+      <div className="how-we-work-background d-lg-flex align-items-end">
+        <div className="how-we-work-background-top p-lg-5 ">
+          <div className=" how-we-work-background-header">
+            <h1 className="text-white ">How We Work</h1>
+            <p className="text-white mt-3 mb-lg-5 fw-light">
+              We recognise the unique needs of every business, understanding
+              that a one size fits all approach is inadequate. That's why we
+              emphasise simplicity and flexibility in our engagements, tailored
+              to your convenience on demand.
+            </p>
+          </div>
+          <div className="how-we-work-background-button">
             <Link to="aboutUs">
               <button className="btn btn-primary rounded-pill border-0 quote-button">
                 Learn More
