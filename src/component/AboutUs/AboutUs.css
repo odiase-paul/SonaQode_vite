@@ -1,0 +1,242 @@
+.about-us {
+  background: url("../../assets/AboutUsFiles/about-banner.png");
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  box-shadow: 0px 0px 0px 0px #00000040, inset 0 0 0 1000px rgba(0, 0, 0, 0.5);
+}
+
+.about-us-details {
+  padding-top: 55px;
+}
+.about-us-details h1 {
+  width: 55%;
+  font-family: "Clash Display", sans-serif;
+  font-weight: 600;
+  font-size: 3.5rem;
+}
+.about-us-details p {
+  font-size: 1.11rem;
+  width: 55.2%;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  margin: 4px 0;
+}
+
+/* about-us-mission-vision*/
+
+.mission-vision-divs {
+  border-radius: 40px;
+  max-width: 590px;
+  padding: 25px 30px;
+}
+.mission-vision-divs p {
+  color: #4b5563;
+  font-size: 1.1rem;
+}
+.mission-vision-divs img {
+  width: 30px;
+}
+.mission-vision-divs .goal-vision-img {
+  padding: 8px;
+  border-radius: 50%;
+}
+.mission-vision-divs .header {
+  font-size: 2.5rem;
+  font-weight: 500;
+  font-family: "Clash Display", sans-serif;
+}
+
+/* OUR VALUES */
+.why-sonaQode-our-value-title {
+  text-align: center;
+  margin: 0 80px;
+  font-weight: 300;
+  color: #4b5563;
+}
+
+/* HOW WE WORK */
+.how-it-works,
+.frequently-questions {
+  background-color: #e6f2ff;
+  border-radius: 100px;
+  padding: 65px;
+}
+
+.how-it-works-second-divs {
+  max-width: 540px;
+}
+.how-it-works-second-divs img {
+  width: 5rem;
+}
+
+.how-it-works-second-divs header {
+  font-size: 1.3rem;
+  font-weight: 500;
+  margin: 0;
+  padding: 0;
+}
+.how-it-works-second-divs p {
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+/* GLOBAL REACH */
+
+.global-reach {
+  border-radius: 100px;
+  background: url("../../assets//AboutUsFiles/global-reach.png");
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  color: #fff;
+  box-shadow: 0px 0px 0px 0px #00000040, inset 0 0 0 1000px rgba(0, 0, 0, 0.3);
+  padding: 0 0 50px 70px;
+}
+.global-reach div {
+  width: 70%;
+  text-wrap-mode: initial;
+  text-wrap-style: balance;
+}
+.global-reach h1,
+.frequently-questions h1,
+.how-it-works-div h1 {
+  font-family: "Clash Display", sans-serif;
+  font-weight: 600;
+  font-size: 3.2rem;
+}
+.global-reach p {
+  font-weight: 300;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+/* FAQs */
+
+.frequently-questions-second-div {
+  margin: 0 5rem;
+  border-radius: 25px;
+  border: none;
+}
+.frequently-questions-second-div .heading {
+  font-weight: 500;
+  font-size: 1.125rem;
+  color: #000;
+}
+
+.frequently-questions-second-div .custom-collapse {
+  font-weight: 300;
+  font-size: 1rem;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease-in-out;
+}
+.frequently-questions-second-div .custom-collapse.open {
+  max-height: 200px;
+}
+
+@media (max-width: 480px) {
+  .about-us-details {
+    justify-content: end;
+    margin-bottom: 60px;
+  }
+  .about-us-details h1 {
+    width: 100%;
+    font-size: 1.5rem;
+  }
+  .about-us-details p {
+    font-size: 0.875rem;
+    width: 100%;
+    line-height: 1.25rem;
+  }
+  /* about-us-mission-vision*/
+
+  .mission-vision-divs {
+    padding: 25px;
+  }
+
+  .mission-vision-divs img {
+    width: 20px;
+  }
+  .mission-vision-divs .goal-vision-img {
+    padding: 5px 7px;
+  }
+  .mission-vision-divs .header {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+  .mission-vision-divs p {
+    line-height: 1.25rem;
+    font-size: 0.875rem;
+  }
+  /* OUR VALUES */
+  .why-sonaQode-our-value-title {
+    font-size: 0.875rem;
+    margin: 0;
+    padding: 0 10px;
+    line-height: 1.25rem;
+  }
+  /* HOW WE WORK */
+  .how-it-works,
+  .frequently-questions {
+    border-radius: 50px;
+    padding: 65px 10px;
+  }
+  .global-reach h1,
+  .frequently-questions h1,
+  .how-it-works-div h1 {
+    font-weight: 600;
+    font-size: 1.875rem;
+  }
+  .how-it-works-second-divs {
+    column-gap: 1.3rem;
+  }
+
+  .how-it-works-second-divs img {
+    width: 4rem;
+  }
+
+  .how-it-works-second-divs header {
+    font-size: 1rem;
+  }
+  .how-it-works-second-divs p {
+    font-size: 0.875rem;
+  }
+  /* GLOBAL REACH */
+
+  .global-reach {
+    border-radius: 50px;
+    height: 45vh;
+    padding: 0 15px;
+    align-items: center;
+    justify-content: center;
+  }
+  .global-reach div {
+    width: 100%;
+  }
+  .global-reach p {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    margin-bottom: 0;
+  }
+  /* FAQs */
+
+  .frequently-questions-second-div {
+    margin: 0;
+  }
+  .frequently-asked-questions {
+    text-align: center;
+    line-height: 2.25rem;
+  }
+  .frequently-questions-second-div .heading {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
+  .frequently-questions-second-div .custom-collapse {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
+}

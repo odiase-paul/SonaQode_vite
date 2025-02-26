@@ -42,7 +42,9 @@
 }
 
 .why-sonaQode-title {
-  padding: 0 100px;
+  text-wrap-mode: initial;
+  text-wrap-style: balance;
+  text-align: center;
 }
 .why-sonaqode-second-divs {
   background-color: #fff;
@@ -59,6 +61,10 @@
 }
 .why-sonaqode-second-divs header {
   font-size: 1.3rem;
+}
+.why-sonaqode-second-divs p {
+  font-weight: 300;
+  padding-right: 10px;
 }
 
 /* HOW WE WORK */
@@ -96,7 +102,6 @@
     font-size: 1.875rem;
   }
   .why-sonaQode-title {
-    padding: 0 20px;
     font-size: 0.875rem;
     text-align: center;
   }
@@ -111,6 +116,7 @@
   }
   .why-sonaqode-second-divs p {
     font-size: 0.875rem;
+    padding-right: 0;
   }
   .why-sonaQode-flex {
     gap: 20px;

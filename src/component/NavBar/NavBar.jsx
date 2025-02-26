@@ -5,9 +5,16 @@ import { Link, useLocation } from "react-router-dom";
 import password from "../../assets/icons/password.png";
 import code from "../../assets/icons/code.png";
 import chart from "../../assets/icons/chart.png";
+import { Close } from "@mui/icons-material";
+import { motion } from "framer-motion";
 
 const NavBar = () => {
   const location = useLocation();
+
+  const [isOverlayOpen, setIsOverlayOpen] = useState(false);
+  const toggleOverlay = () => {
+    setIsOverlayOpen(!isOverlayOpen);
+  };
 
   return (
     <div className="">
@@ -19,22 +26,16 @@ const NavBar = () => {
           <button
             className="navbar-toggler p-0 border-0"
             type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNavDropdown"
-            aria-controls="navbarNavDropdown"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
+            // data-bs-toggle="collapse"
+            // data-bs-target="#navbarNavDropdown"
+            // aria-controls="navbarNavDropdown"
+            // aria-expanded="false"
+            // aria-label="Toggle navigation"
+            onClick={toggleOverlay}
           >
             <span className="navbar-toggler-icon"></span>
           </button>
-          {/* <div className="overlay" id="overlay"></div> */}
-          <div
-            className="collapse navbar-collapse full-width-collapse"
-            id="navbarNavDropdown"
-          >
-            {/* <button className="close-btn" id="closeNavbar">
-              &times;
-            </button> */}
+          <div className="collapse navbar-collapse  " id="navbarNavDropdown">
             <ul className="navbar-nav mx-auto navbar-list-items column-gap-3">
               <li className="nav-item">
                 <Link
@@ -144,6 +145,112 @@ const NavBar = () => {
           </div>
         </div>
       </nav>
+      {isOverlayOpen && (
+        <motion.div
+          initial={{ x: "100%" }}
+          animate={{ x: isOverlayOpen ? 0 : "100%" }}
+          transition={{ type: "tween", duration: 0.5, ease: "easeInOut" }}
+          // collapse navbar-collapse
+          className={`overlay `}
+          id="navbarNavDropdown"
+        >
+          <div className="overlay-close-div " onClick={toggleOverlay}>
+            <Close className="overlay-close-icon" />
+          </div>
+          <div className="overlay-content">
+            <ul className="navbar-nav mx-auto navbar-list-items gap-1">
+              <li className="nav-item ">
+                <Link
+                  className={`nav-link `}
+                  aria-current="page"
+                  to="/"
+                  onClick={() => setIsOverlayOpen(false)}
+                >
+                  Home
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link
+                  className={`nav-link li-link`}
+                  to="aboutUs"
+                  onClick={() => setIsOverlayOpen(false)}
+                >
+                  About Us
+                </Link>
+              </li>
+              <li className="nav-item dropdown">
+                <Link
+                  className="nav-link dropdown-toggle "
+                  href="#"
+                  role="button"
+                  // data-bs-toggle="dropdown"
+                  // aria-expanded="false"
+                >
+                  Services
+                </Link>
+                <ul className="dropdown-menu">
+                  <li className="d-flex mb-3">
+                    <div className="dm-first dropdown-div">
+                      <img className="service-icon" src={code} alt="" />
+                    </div>
+                    <Link
+                      className={`dropdown-item  `}
+                      to="softwareDev"
+                      onClick={() => setIsOverlayOpen(false)}
+                    >
+                      Software Development
+                    </Link>
+                  </li>
+                  <li className="d-flex mb-3">
+                    <div className="dm-second dropdown-div">
+                      <img className="service-icon" src={chart} alt="" />
+                    </div>
+                    <Link
+                      className={`dropdown-item`}
+                      to="dataAnalytics"
+                      onClick={() => setIsOverlayOpen(false)}
+                    >
+                      Data & Analytics
+                    </Link>
+                  </li>
+                  <li className="d-flex">
+                    <div className="dm-third dropdown-div">
+                      <img className="service-icon" src={password} alt="" />
+                    </div>
+                    <Link
+                      className={`dropdown-item`}
+                      to="cyberSecurity"
+                      onClick={() => setIsOverlayOpen(false)}
+                    >
+                      Cyber Security
+                    </Link>
+                  </li>
+                </ul>
+              </li>
+              <li className="nav-item">
+                <Link
+                  className={`nav-link  ${
+                    location.pathname === "/corporateCul"
+                  } `}
+                  to="corporateCul"
+                  onClick={() => setIsOverlayOpen(false)}
+                >
+                  Corporate Culture
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link
+                  className={`nav-link`}
+                  to="contactUs"
+                  onClick={() => setIsOverlayOpen(false)}
+                >
+                  Contact Us
+                </Link>
+              </li>
+            </ul>
+          </div>
+        </motion.div>
+      )}
     </div>
   );
 };
