@@ -1,0 +1,55 @@
+.data-analytics .software-development-inner-div {
+  background: #ffd0d9;
+  height: 105vh;
+}
+
+.data-analytics .see-service-button {
+  color: #ff728d;
+}
+.software-development-inner-div .see-service-button:hover {
+  background: #ff728d;
+}
+
+.data-analytics .software-dev-image-div img {
+  height: 85vh;
+}
+.data-analytics .product-amount-div p span {
+  display: none;
+}
+.data-analytics .experts-assistance-flex-div .data-analytic-hide {
+  display: none !important;
+}
+.data-analytics .text-sona-purple {
+  color: #ff728d;
+}
+.data-analytics .how-it-works {
+  background: #ffd0d9;
+}
+.data-analytics .path-color {
+  color: #ff728d;
+}
+
+.data-analytics .experts-assistance-div,
+.data-analytics .how-to-initiate-div {
+  background: #ffd0d9;
+  border-radius: 100px;
+}
+.experts-assistance-flex-inner-div svg {
+  max-width: 24px;
+  width: 100%;
+}
+@media (max-width: 480px) {
+  .data-analytics .h1-heading {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+  .data-analytics .software-development-inner-div {
+    height: auto;
+  }
+
+  .data-analytics .experts-assistance-div,
+  .data-analytics .how-to-initiate-div {
+    background: #ffd0d9;
+    border-radius: 50px;
+  }
+}

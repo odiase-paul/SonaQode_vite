@@ -1,35 +1,242 @@
-.software-development {
-  margin-top: 13rem;
+.h1-heading {
+  font-size: 3rem;
+  font-weight: 600;
+  font-family: "Clash Display", sans-serif;
 }
+
 .software-development-inner-div {
-  height: 110vh;
+  margin-top: 10rem;
+  height: 115vh;
   border-radius: 100px;
   background: #cdcbff;
+  padding: 20px 55px;
 }
 .software-development-inner-div h2 {
   font-family: "Clash Display", sans-serif;
   font-weight: 600;
-  font-size: 3.5rem;
+  font-size: 3rem;
   line-height: 3.5rem;
 }
+
 .software-development-inner-div p {
   font-weight: 300;
   font-size: 1.1rem;
-  line-height: 1.8rem;
+  line-height: 1.7rem;
+}
+.software-development-inner-div .flex-image-div {
+  position: relative;
+  height: 25vh;
 }
 .software-development-inner-div .flex-image {
-  width: 6rem;
+  max-width: 6rem;
+  position: absolute;
 }
-.see-service-button {
+.flex-image-left {
+  top: -1.12rem;
+  left: 0;
+  transform: rotate(-12deg);
+}
+.flex-image-right {
+  top: -1.12rem;
+  right: 0;
+  transform: rotate(-12deg);
+}
+.flex-image-middle {
+  bottom: -3rem;
+  vertical-align: middle;
+}
+.software-development-inner-div .see-service-button {
   padding: 18px 45px;
   color: #9747ff;
   background: #fff;
 }
-.software-dev-image-div {
-  background: url("src/assets/softwareDevelopment/software-development.png");
-  background-position: center;
-  background-size: cover;
+.software-development-inner-div .see-service-button:hover {
+  background: #9747ff;
+  color: #fff;
+}
+
+.software-dev-image-div img {
   width: 100%;
-  height: 90%;
+  height: 95vh;
+  object-fit: cover;
   border-radius: 60px;
+}
+
+/* software-development-service */
+.software-development-service .software-development-service-inner {
+  row-gap: 130px;
+}
+.software-development-service-item {
+  max-width: 30.7%;
+  width: 100%;
+  flex-shrink: 0;
+  border-radius: 40px;
+  background: #e6f2ff;
+  padding: 80px 17px 40px;
+  transform: translateX(calc(0% - 0px));
+}
+
+.software-development-service-item .header {
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: 1.75rem;
+  font-family: "Poppins", sans-serif;
+  color: #000;
+}
+.software-development-service-item .paragraph {
+  font-size: 15px;
+  font-weight: 300;
+  color: #000;
+  font-family: "Poppins", sans-serif;
+}
+.product-amount-div p {
+  border-radius: 25px;
+  padding: 10px 15px;
+  background: #0e6ba4;
+  color: #fff;
+  border: none;
+}
+.product-amount-div p span {
+  font-size: 14px;
+}
+.software-development-service-item .sds-body-div {
+  max-height: 100%;
+  height: 70%;
+}
+
+.software-development-service-item .sds-learn-more {
+  padding: 18px 45px;
+  color: #0e6ba4;
+  background: #fff;
+}
+.software-development-service-item .sds-learn-more:hover {
+  color: #fff;
+  background: #0e6ba4;
+}
+/* experts-assistance */
+
+.software-development .experts-assistance-div,
+.software-development .how-to-initiate-div {
+  background: #cdcbff;
+  border-radius: 100px;
+}
+.experts-assistance-div .expert-width {
+  width: 65%;
+  max-width: 100%;
+}
+.experts-assistance-flex-div .experts-assistance-flex-inner-div {
+  max-width: 400px;
+  width: 100%;
+}
+.experts-assistance-flex-inner-div p {
+  font-weight: 300;
+}
+.software-development .text-sona-purple {
+  color: #9747ff;
+}
+.software-development .how-it-works {
+  background: #cdcbff;
+}
+.software-development .path-color {
+  color: #9747ff;
+}
+@media (max-width: 480px) {
+  .experts-assistance-div .h1-heading {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+  /* software-development-inner-div */
+  .software-development-inner-div {
+    height: auto;
+    border-radius: 50px;
+    padding: 50px 0 20px;
+  }
+  .software-development h1,
+  .software-development-inner-div h2 {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .software-development-inner-div .flex-image-div {
+    margin-bottom: 20px;
+    height: 17vh;
+  }
+  .software-development-inner-div .flex-image {
+    width: 4.5rem;
+  }
+  .software-development-inner-div p {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
+  .software-development-inner-div .see-service-button {
+    padding: 12px 20px;
+    font-size: 0.875rem;
+  }
+  .software-dev-image-div {
+    margin-top: 40px;
+  }
+  .software-dev-image-div img {
+    height: 70vh;
+    border-radius: 30px;
+  }
+
+  /* software-development-service */
+  .software-development-service .software-development-service-inner {
+    display: flex;
+    flex-direction: column;
+  }
+  .software-development-service-item {
+    max-width: 100%;
+  }
+
+  .software-development-service-item .header {
+    font-size: 1.25rem;
+    font-weight: 500;
+    line-height: 1.75rem;
+    font-family: "Poppins", sans-serif;
+    color: #000;
+  }
+  .software-development-service-item .paragraph {
+    font-size: 15px;
+    font-weight: 300;
+    color: #000;
+    font-family: "Poppins", sans-serif;
+  }
+  .product-amount-div p {
+    border-radius: 25px;
+    padding: 10px 15px;
+    background: #0e6ba4;
+    color: #fff;
+    border: none;
+  }
+  .product-amount-div p span {
+    font-size: 14px;
+  }
+  .software-development-service-item .sds-body-div {
+    max-height: 100%;
+    height: 70%;
+    margin-bottom: 30px;
+  }
+
+  /* experts-assistance */
+
+  .software-development .experts-assistance-div {
+    border-radius: 50px;
+  }
+
+  .experts-assistance-flex-div .experts-assistance-flex-inner-div {
+    padding: 5px;
+  }
+  .experts-assistance-div .expert-width {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .experts-assistance-flex-div {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+  }
 }

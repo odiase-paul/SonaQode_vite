@@ -1,0 +1,38 @@
+.cyber-security-service .software-development-inner-div {
+  background: #d1ffd9;
+}
+
+.cyber-security-service .see-service-button {
+  padding: 18px 45px;
+  color: #25e44f;
+}
+.cyber-security-service .see-service-button:hover {
+  background: #25e44f;
+}
+.cyber-security-service .product-amount-div p span {
+  display: none;
+}
+
+.cyber-security-service .experts-assistance-div,
+.cyber-security-service .how-to-initiate-div {
+  background: #d1ffd9;
+  border-radius: 100px;
+}
+
+.cyber-security-service .experts-assistance-flex-div .data-analytic-hide {
+  display: none !important;
+}
+.cyber-security-service .text-sona-purple {
+  color: #25e44f;
+}
+.cyber-security-service .how-it-works {
+  background: #d1ffd9;
+}
+.cyber-security-service .path-color {
+  color: #25e44f;
+}
+@media (max-width: 480px) {
+  .cyber-security-service .experts-assistance-div {
+    border-radius: 50px;
+  }
+}
