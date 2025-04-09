@@ -8,7 +8,7 @@ const Footer = ({}) => {
   const year = new Date().getFullYear();
 
   return (
-    <div className="footer marginTop text-white p-5 pb-2 ">
+    <div className="footer  text-white p-5 pb-2 ">
       <div className="header d-flex justify-content-center">
         <h1>Let’s Build Something Great Together</h1>
       </div>

@@ -26,14 +26,25 @@ const NavBar = () => {
           <button
             className="navbar-toggler p-0 border-0"
             type="button"
-            // data-bs-toggle="collapse"
-            // data-bs-target="#navbarNavDropdown"
-            // aria-controls="navbarNavDropdown"
-            // aria-expanded="false"
-            // aria-label="Toggle navigation"
             onClick={toggleOverlay}
           >
-            <span className="navbar-toggler-icon"></span>
+            <svg
+              width="37"
+              height="37"
+              viewBox="0 0 37 37"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              className="text-white"
+            >
+              <path
+                d="M30.833 30.834L15.4163 30.834M30.833 20.0423L6.16634 20.0423M30.833 9.25065L6.16634 9.25065"
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              ></path>
+            </svg>
+            {/* <span className="navbar-toggler-icon"></span> */}
           </button>
           <div className="collapse navbar-collapse  " id="navbarNavDropdown">
             <ul className="navbar-nav mx-auto navbar-list-items column-gap-3">

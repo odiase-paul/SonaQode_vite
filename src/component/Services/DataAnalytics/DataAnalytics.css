@@ -6,7 +6,7 @@
 .data-analytics .see-service-button {
   color: #ff728d;
 }
-.software-development-inner-div .see-service-button:hover {
+.data-analytics .see-service-button:hover {
   background: #ff728d;
 }
 
@@ -39,14 +39,20 @@
   width: 100%;
 }
 @media (max-width: 480px) {
+  .data-analytics .software-dev-image-div img {
+    height: 65vh;
+  }
   .data-analytics .h1-heading {
     font-size: 1.5rem;
     line-height: 2rem;
+    text-align: center;
   }
   .data-analytics .software-development-inner-div {
     height: auto;
   }
-
+  .data-analytics .experts-assistance-div {
+    padding: 0px 20px;
+  }
   .data-analytics .experts-assistance-div,
   .data-analytics .how-to-initiate-div {
     background: #ffd0d9;

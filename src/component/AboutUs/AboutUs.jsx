@@ -124,7 +124,7 @@ const AboutUs = () => {
   ];
 
   return (
-    <div>
+    <div className="marginButton">
       {/* about us */}
       <div className="about-us d-flex justify-content-start align-items-lg-center">
         <div className="d-flex flex-column text-white about-us-details mx-4 ">

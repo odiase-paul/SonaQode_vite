@@ -19,6 +19,7 @@ const OurServices = () => {
       button: "Learn More",
       color: "#cdcbff",
       buttonBg: "#8581ff",
+      link: "/softwareDev",
     },
     {
       id: 2,
@@ -29,6 +30,7 @@ const OurServices = () => {
       button: "Learn More",
       color: "#ffd0d9",
       buttonBg: "#ff96aa",
+      link: "/dataAnalytics",
     },
     {
       id: 3,
@@ -39,6 +41,7 @@ const OurServices = () => {
       button: "Learn More",
       color: "#d1ffd9",
       buttonBg: "#69ff93",
+      link: "/cyberSecurity",
     },
   ];
 
@@ -77,8 +80,8 @@ const OurServices = () => {
     },
   ];
   return (
-    <div className="mx-4 our-service">
-      <h1 className="d-flex justify-content-center mb-5">Our Services</h1>
+    <div id="our-services-link" className=" mx-4 our-service">
+      <h1 className="d-flex justify-content-center mb-5 ">Our Services</h1>
       <div className="d-lg-flex justify-content-between column-gap-5 our-service-flex">
         {serviceDetails.map((items, i) => {
           return (
@@ -95,12 +98,17 @@ const OurServices = () => {
               </div>
               <div className="hidden-container d-flex justify-content-center align-items-center flex-column px-4">
                 <p className="mb-4">{items.paragraph}</p>
-                <button
-                  style={{ backgroundColor: items.buttonBg }}
-                  className="w-50 border-0 rounded-pill py-2 text-white"
-                >
-                  {items.button}
-                </button>
+
+                <div className="w-75 d-flex justify-content-center">
+                  <Link className="w-75" to={items.link}>
+                    <button
+                      style={{ backgroundColor: items.buttonBg }}
+                      className="w-100  border-0 rounded-pill py-2 text-white"
+                    >
+                      {items.button}
+                    </button>
+                  </Link>
+                </div>
               </div>
             </div>
           );

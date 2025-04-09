@@ -12,9 +12,11 @@ import Home from "./component/Home/Home";
 import GetQuote from "./component/GetQuote/GetQuote";
 import Footer from "./component/Footer/Footer";
 import PrivacyPolicy from "./component/PrivacyPolicy/PrivacyPolicy";
+import ScrollToTop from "./component/ScrollToTop/ScrollToTop";
 function App() {
   return (
     <div>
+      <ScrollToTop />
       <NavBar />
       <Routes>
         <Route path="/" element={<Home />} />

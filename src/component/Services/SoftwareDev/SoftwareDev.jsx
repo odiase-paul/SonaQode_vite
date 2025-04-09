@@ -217,7 +217,7 @@ const SoftwareDev = () => {
     },
   ];
   return (
-    <div className="software-development">
+    <div className="software-development marginButton">
       {/* software development */}
       <ServiceTopDiv
         leftImage={leftImage}

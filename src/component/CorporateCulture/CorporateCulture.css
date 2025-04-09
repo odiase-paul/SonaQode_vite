@@ -1,0 +1,256 @@
+/* Corporate Culture */
+.corporate-culture .corporate-culture-div {
+  background: url("../../assets/corporateCulture/global-reach.png");
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  box-shadow: 0px 0px 0px 0px #00000040, inset 0 0 0 1000px rgba(0, 0, 0, 0.5);
+}
+
+.corporate-culture-details {
+  padding-top: 5rem;
+}
+.corporate-culture-details h1 {
+  width: 55%;
+  font-family: "Clash Display", sans-serif;
+  font-weight: 600;
+  font-size: 3.5rem;
+}
+.corporate-culture-details p {
+  font-size: 1.11rem;
+  width: 55.2%;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  margin: 4px 0;
+}
+
+.corporate-culture .software-development-inner-div {
+  height: 105vh;
+  background: #e6f2ff;
+}
+
+.corporate-culture .flex-image-div {
+  display: none !important;
+}
+.corporate-culture .service-top-div-button-hide {
+  display: none !important;
+}
+.corporate-culture .reuseable-service-top-div {
+  padding: 5px;
+}
+
+.corporate-culture .software-dev-image-div img {
+  height: 85vh;
+}
+
+/* pledges */
+
+.pledges .pledges-div {
+  border-radius: 100px;
+  background: #e6f2ff;
+  padding: 40px 55px;
+}
+.corporate-culture .software-development-inner-div {
+  margin-top: 5rem;
+}
+
+.pledges .pledges-inner-div {
+  width: 90%;
+  margin: auto;
+}
+.pledges-inner-div-details p {
+  font-weight: 300;
+  font-size: 1.125rem;
+  text-wrap: initial;
+  text-wrap-style: balance;
+  text-align: center;
+}
+.pledges .pledges-flex-div {
+  row-gap: 50px;
+  color: #fff;
+  margin-top: 40px;
+}
+.pledges-flex-div .sdg-div {
+  max-width: 470px;
+  width: 100%;
+  max-height: 50vh;
+  height: 100vh;
+  border-radius: 40px;
+  box-shadow: 0px 0px 0px 0px #00000040, inset 0 0 0 1000px rgba(0, 0, 0, 0.4);
+}
+
+.pledges-flex-div .sdg-div h2 {
+  font-size: 3rem;
+  font-weight: 600;
+  font-family: "Clash Display", sans-serif;
+}
+.pledges-flex-div .sdg-subheading-paragraph {
+  margin: 0 20px;
+}
+.sdg-subheading-paragraph .not-hovered {
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 1.75rem;
+  text-align: center;
+  text-wrap: initial;
+  text-wrap-style: balance;
+}
+.sdg-subheading-paragraph .is-hovered {
+  font-weight: 300;
+  text-align: center;
+  text-wrap: initial;
+  text-wrap-style: balance;
+}
+
+/* our community impact */
+
+.community-impact .community-impact-div {
+  border-radius: 100px;
+  background: #e6f2ff;
+  padding: 40px 55px;
+}
+.community-impact .community-impact-inner-div {
+  width: 90%;
+  margin: auto;
+}
+.community-impact-inner-div-details p {
+  font-weight: 300;
+  font-size: 1.12rem;
+  text-align: center;
+}
+.community-impact .community-impact-flex-div {
+  row-gap: 50px;
+  color: #fff;
+  margin-top: 40px;
+}
+.community-impact-flex-div .ecsc-div {
+  max-width: 470px;
+  width: 100%;
+  max-height: 50vh;
+  height: 100vh;
+  border-radius: 40px;
+}
+
+.community-impact-flex-div .ecsc-div h2 {
+  font-size: 3rem;
+  font-weight: 600;
+  font-family: "Clash Display", sans-serif;
+}
+.community-impact-flex-div .ecsc-div img {
+  width: 3rem;
+}
+
+@media (max-width: 480px) {
+  .corporate-culture .h1-heading {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+    text-align: center;
+  }
+  .corporate-culture .corporate-culture-div {
+    height: 110vh;
+  }
+  .corporate-culture-details h1 {
+    width: 100%;
+    font-size: 1.5rem;
+  }
+  .corporate-culture-details p {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    width: 100%;
+  }
+  .corporate-culture-details {
+    justify-content: end;
+    padding-bottom: 2rem;
+  }
+  /* people */
+
+  .corporate-culture .software-development-inner-div {
+    height: fit-content;
+  }
+  .corporate-culture .software-development-inner-div p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+  .corporate-culture .software-dev-image-div {
+    margin-top: 20px;
+  }
+  .corporate-culture .software-dev-image-div img {
+    height: 65vh;
+  }
+  .corporate-culture .reuseable-service-top-div {
+    padding: 0 20px;
+  }
+
+  /* pledges */
+
+  .pledges .pledges-div {
+    border-radius: 50px;
+    padding: 40px 10px 20px;
+  }
+  .pledges .pledges-inner-div {
+    width: 100%;
+  }
+
+  .pledges-inner-div-details p {
+    font-weight: 300;
+    font-size: 1rem;
+    line-height: 1.25rem;
+  }
+  .pledges .pledges-flex-div {
+    row-gap: 20px;
+  }
+  .pledges-flex-div .sdg-div {
+    max-height: 75vh;
+    height: 100vh;
+  }
+  .pledges-flex-div .sdg-div h2 {
+    font-size: 2.25rem;
+  }
+
+  .sdg-subheading-paragraph .not-hovered {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+  .sdg-subheading-paragraph .is-hovered {
+    font-size: 0.9rem;
+  }
+
+  /* our community impact */
+
+  .community-impact .community-impact-div {
+    border-radius: 50px;
+    padding: 40px 10px 20px;
+  }
+  .community-impact .community-impact-inner-div {
+    width: 100%;
+  }
+  .community-impact-inner-div-details p {
+    font-weight: 300;
+    font-size: 1rem;
+    line-height: 1.25rem;
+  }
+  .community-impact .community-impact-flex-div {
+    row-gap: 30px;
+  }
+  .community-impact-flex-div .ecsc-div {
+    max-height: 60vh;
+  }
+  .community-impact-flex-div .ecsc-div h2 {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+  .community-impact-flex-div .ecsc-div img {
+    width: 2.25rem;
+  }
+
+  /* We Achieve These By */
+
+  .corporate-culture .why-sonaQode {
+    padding: 60px 10px 20px;
+  }
+  .corporate-culture .why-sonaQode h1 {
+    margin: 0;
+    text-align: center;
+  }
+}

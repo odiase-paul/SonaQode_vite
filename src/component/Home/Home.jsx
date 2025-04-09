@@ -8,7 +8,7 @@ import WhatOurClientsSay from "./WhatOurClientsSay";
 
 const Home = () => {
   return (
-    <div>
+    <div className="marginButton">
       <div className="homeBanner d-flex justify-content-start align-items-lg-center">
         <div className="text-white home-banner-details mx-4">
           <h1>Empowered by tech. Powered by talent.</h1>

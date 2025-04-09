@@ -35,7 +35,7 @@ const ServiceTopDiv = ({
         <div>
           <p>{paragraph}</p>
         </div>
-        <div>
+        <div className="service-top-div-button-hide">
           <a href="#services">
             <button className="btn btn-primary rounded-pill border-0 see-service-button">
               {button}

@@ -27,6 +27,9 @@
 .our-service-div header {
   font-weight: 500;
 }
+.our-service-div button {
+  height: 50px;
+}
 .hidden-container p {
   text-align: center;
   font-size: 0.9rem;
@@ -50,7 +53,12 @@
   background-color: #fff;
   border-radius: 40px;
   max-width: 530px;
+  max-height: 50vh;
+  height: 100vh;
   padding: 40px 30px;
+}
+.our-service .why-sonaqode-second-divs {
+  max-height: 40vh;
 }
 .why-sonaqode-second-divs img {
   width: 30px;
@@ -96,7 +104,7 @@
   }
   .why-sonaQode {
     border-radius: 50px;
-    padding: 65px 0px;
+    padding: 65px 0px 20px;
   }
   .why-sonaQuode-top-div h1 {
     font-size: 1.875rem;
@@ -109,7 +117,8 @@
     border-radius: 40px;
     width: 85%;
     max-width: 100%;
-    padding: 40px 30px;
+    max-height: fit-content;
+    padding: 40px 30px 20px;
   }
   .why-sonaqode-second-divs header {
     font-size: 1rem;

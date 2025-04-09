@@ -1,0 +1,104 @@
+.get-quote {
+  background: url("../../assets/contactUs/get-quote-banner.png");
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 200vh;
+  box-shadow: 0px 0px 0px 0px #00000040, inset 0 0 0 1000px rgba(0, 0, 0, 0.3);
+}
+.contact-us-inner-div {
+  padding-top: 12rem;
+  color: #fff;
+}
+.get-quote .text-sona-blue {
+  color: #0e6ba4;
+}
+.get-quote .h1-heading {
+  font-size: 40px;
+}
+.get-quote .first-column {
+  max-width: 30%;
+  width: 100%;
+}
+.get-quote .contact-us-flex-div {
+  font-weight: 300;
+  margin: 30px 0 40px;
+}
+.get-quote .first-column-email {
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+.get-quote .contact-us-form {
+  max-width: 70%;
+  width: 100%;
+}
+.contact-us-form form {
+  width: 70%;
+}
+.contact-us-form form label,
+.contact-us-form input,
+.contact-us-form textarea {
+  font-size: 0.875rem;
+}
+.contact-us-form input,
+.contact-us-form textarea {
+  padding: 0.5rem;
+  background: #fff;
+  border-radius: 10px;
+  border: 1px solid #fff;
+}
+.contact-us-form textarea {
+  height: 25vh;
+}
+.contact-us-form .file-input-field {
+  height: 15vh;
+}
+
+.contact-us-form .custom-checkbox {
+  position: relative;
+  cursor: pointer;
+  padding-left: 30px;
+  user-select: none;
+}
+.custom-checkbox input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+.custom-checkbox span {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 20px;
+  width: 20px;
+  background: none;
+  border: 1px solid #fff;
+  border-radius: 5px;
+}
+.custom-checkbox input:checked ~ span {
+  background-color: #0e6ba4;
+  border: #0e6ba4;
+}
+
+.contact-us-form .privacy-policy {
+  font-size: 1rem;
+}
+
+.contact-us-form form .contact-us-checkbox {
+  width: 20px;
+}
+.contact-us-form .contactUs-submit-button,
+.contact-us-form .filledSubmitButton {
+  margin-top: 30px;
+  background: #0e6ba4;
+  color: #fff;
+  border-radius: 50px;
+  border: none;
+  height: 60px;
+  font-weight: 400;
+  line-height: 1.25rem;
+  opacity: 0.8;
+}
+.contact-us-form .filledSubmitButton {
+  opacity: 1;
+}

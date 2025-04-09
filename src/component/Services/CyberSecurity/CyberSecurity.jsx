@@ -196,7 +196,7 @@ const CyberSecurity = () => {
   ];
 
   return (
-    <div className="cyber-security-service">
+    <div className="cyber-security-service marginButton">
       <ServiceTopDiv
         leftImage={leftImage}
         middleImage={middleImage}

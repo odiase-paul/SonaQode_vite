@@ -55,6 +55,8 @@ const EngagementMood = () => {
       imgBgColor5: "#9aa9ff",
       imgBgColor6: "#93ff98",
 
+      link: "#our-services-link",
+
       //   onboarding
 
       onBoardingIcon1: pinkIcon1,
@@ -112,6 +114,7 @@ const EngagementMood = () => {
       imgBgColor5: "#9aa9ff",
       imgBgColor6: "#93ff98",
 
+      link: "/getQuote",
       //   onBoarding
 
       onBoardingIcon1: purpleIcon1,
@@ -251,13 +254,13 @@ const EngagementMood = () => {
                   </div>
                 </div>
                 <div className="mt-4 d-flex justify-content-center">
-                  <Link>
+                  <a href={items.link}>
                     <button
                       className={` rounded-pill border-0 engagement-model-button ${items.id}`}
                     >
                       {items.button}
                     </button>
-                  </Link>
+                  </a>
                 </div>
               </div>
               <div

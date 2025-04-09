@@ -186,7 +186,7 @@ const DataAnalytics = () => {
     },
   ];
   return (
-    <div className="data-analytics">
+    <div className="data-analytics marginButton">
       {/* first div */}
       <ServiceTopDiv
         leftImage={leftImage}
