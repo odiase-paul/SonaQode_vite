@@ -37,7 +37,7 @@ const ServiceSecondDiv = ({ heading, arrays, button }) => {
               </div>
 
               <div className="sds-learn-more-div d-flex justify-content-center">
-                <a className="" href="">
+                <a className="" href={item.buttonLink}>
                   <button className="btn rounded-pill border-0  sds-learn-more">
                     {button}
                   </button>

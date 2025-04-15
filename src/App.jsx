@@ -13,6 +13,14 @@ import GetQuote from "./component/GetQuote/GetQuote";
 import Footer from "./component/Footer/Footer";
 import PrivacyPolicy from "./component/PrivacyPolicy/PrivacyPolicy";
 import ScrollToTop from "./component/ScrollToTop/ScrollToTop";
+import MobileApp from "./component/Services/SoftwareDev/servicesFiles/mobileApp";
+import BackendDev from "./component/Services/SoftwareDev/servicesFiles/BackendDev";
+import FrontEndDev from "./component/Services/SoftwareDev/servicesFiles/FrontEndDev";
+import FullStackDev from "./component/Services/SoftwareDev/servicesFiles/FullStackDev";
+import ItSupportEng from "./component/Services/SoftwareDev/servicesFiles/ItSupportEng";
+import VideoEditor from "./component/Services/SoftwareDev/servicesFiles/VideoEditor";
+import UiUxDesigner from "./component/Services/SoftwareDev/servicesFiles/UiUxDesigner";
+import QaTester from "./component/Services/SoftwareDev/servicesFiles/QaTester";
 function App() {
   return (
     <div>
@@ -28,6 +36,14 @@ function App() {
         <Route path="/contactUs" element={<ContactUs />} />
         <Route path="/getQuote" element={<GetQuote />} />
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+        <Route path="/mobileApp" element={<MobileApp />} />
+        <Route path="/backendDev" element={<BackendDev />} />
+        <Route path="/frontendDev" element={<FrontEndDev />} />
+        <Route path="/fullStackDev" element={<FullStackDev />} />
+        <Route path="/itSupportEng" element={<ItSupportEng />} />
+        <Route path="/videoEditor" element={<VideoEditor />} />
+        <Route path="/uiuxDesigner" element={<UiUxDesigner />} />
+        <Route path="/qaTester" element={<QaTester />} />
       </Routes>
       <Footer />
     </div>

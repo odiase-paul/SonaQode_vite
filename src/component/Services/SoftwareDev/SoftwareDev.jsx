@@ -25,9 +25,9 @@ const SoftwareDev = () => {
       icon: angleBracket,
       heading: "Mobile App Developer",
       productAmount: " £2,080 / MONTH",
-
       paragraph:
         "Engage skilled developers dedicated to crafting robust custom applications tailored to your specific and complex requirements. Our experienced app development team, adept in the latest technologies, excels in creating top notch mobile apps that captivate users and gather valuable insights. Ensure a strong mobile presence, driving sustained growth and success for your business.",
+      buttonLink: "/mobileApp",
     },
     {
       id: 2,
@@ -37,24 +37,25 @@ const SoftwareDev = () => {
 
       paragraph:
         "Access skilled web developers who can construct high performance, modern web applications from scratch. Our full-stack developers excel in both Front-end and Back-end technologies, delivering fully customised web apps that meet your precise requirements. They ensure excellent performance and provide end to end solutions that are reliable and scalable.",
+      buttonLink: "/fullStackDev",
     },
     {
       id: 3,
       icon: js,
       heading: "Frontend Developer",
       productAmount: " £1,780 / MONTH",
-
       paragraph:
         "Our front-end developers craft intuitive, efficient, and enjoyable user web and mobile applications by expertly wielding a diverse range of frameworks and tools, including JavaScript, CSS, Vue.js, and HTML. They seamlessly integrate design, technology, and usability principles to deliver customised solutions that enhance engagement and accessibility, perfectly aligning with your unique brand needs.",
+      buttonLink: "/frontendDev",
     },
     {
       id: 4,
       icon: codeFolder,
       heading: "Backend Developer",
       productAmount: " £1,780 / MONTH",
-
       paragraph:
         "Access back-end developers prepared to integrate into your project, delivering robust architecture and enhanced performance. They construct secure, scalable, and durable server side solutions using cutting edge tools and technologies such as Java, Python, Node.js, Ruby, and more. Experts in SQL and NoSQL databases, they ensure consistent data flow, delivering impeccable back-end systems that operate flawlessly and fulfill every business requirement.",
+      buttonLink: "/backendDev",
     },
     {
       id: 5,
@@ -64,6 +65,7 @@ const SoftwareDev = () => {
 
       paragraph:
         "Our innovative designers excel at crafting visually appealing, highly functional, and user friendly designs for applications, software, and websites. With a keen eye for detail, they expertly bring your desired design concept to life, creating visuals that enhance audience engagement. By delivering outstanding products that align with your brand and target audience, we foster brand loyalty and give you a competitive advantage.",
+      buttonLink: "/uiuxDesigner",
     },
     {
       id: 6,
@@ -73,6 +75,7 @@ const SoftwareDev = () => {
 
       paragraph:
         "Talented video editors actively cultivate creative and collaborative partnerships to conceptualise captivating animations, motion graphics, and multimedia content that seamlessly align with the company's brand and objectives. They skillfully execute edits that are both current and captivating, drawing upon their versatile expertise in commercial, corporate, and documentary formats.",
+      buttonLink: "/videoEditor",
     },
     {
       id: 7,
@@ -82,6 +85,7 @@ const SoftwareDev = () => {
 
       paragraph:
         "QA engineers comprises seasoned experts who excel in developing streamlined testing and quality management procedures for your project, leveraging cutting edge technologies and adhering to industry leading testing standards. Collaborating with top notch QA and test automation engineers, going above and beyond to emphasise that quality assurance extends far beyond delivering software devoid of bugs.",
+      buttonLink: "/qaTester",
     },
     {
       id: 8,
@@ -91,6 +95,7 @@ const SoftwareDev = () => {
 
       paragraph:
         "Our IT Engineers provide comprehensive technical support, collaborating with cross functional teams to deploy, configure, and maintain IT infrastructure components in alignment with business needs. They utilise appropriate tools and techniques to ensure uptime, performance, and security compliance. They excel in problem solving and proactively identify and implement improvements to enhance overall performance.",
+      buttonLink: "/itSupportEng",
     },
   ];
   const expertAssistance = [
