@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import React, { useState } from "react";
 import "./ServicesFile.css";
 import ClearIcon from "@mui/icons-material/Clear";
 import { ControlPoint, RemoveCircleOutline } from "@mui/icons-material";
@@ -32,10 +32,8 @@ const ServicesFiles = ({
   ptVatAmount,
   ptTotalDue,
   // skill array
-  skillArrays,
-  // deliverables array
-  deliverablesArray,
   entireSkillSet,
+  // deliverables array
   entireDeliverableKey,
 }) => {
   const [showPopUp, setShowPopup] = useState("");
@@ -73,7 +71,7 @@ const ServicesFiles = ({
             <p>{paragraph}</p>
           </div>
           <div className="service-top-div-button-hide">
-            <a href="#services">
+            <a href="#subscribe">
               <button className="btn btn-primary rounded-pill border-0 see-service-button">
                 {button}
               </button>
@@ -96,7 +94,10 @@ const ServicesFiles = ({
         </div>
       </section>
 
-      <section className="service-files-subscribe d-lg-flex justify-content-between align-items-center mx-4 marginButton">
+      <section
+        id="subscribe"
+        className=" service-files-subscribe d-lg-flex justify-content-between align-items-center mx-4 marginButton"
+      >
         <div className="subscribe-first d-flex flex-column justify-content-center align-items-center">
           <h2>Subscribe</h2>
 
@@ -284,26 +285,27 @@ const ServicesFiles = ({
                         visibility: isCollapseOpen[i] ? "hidden" : "visible",
                       }}
                     >
-                      {skillArrays.map((item, i) => {
-                        return (
-                          <div key={i}>
-                            <div className="d-flex">
-                              <ul
-                                className="skill-dull-color"
-                                style={{
-                                  listStyleType: "disc",
-                                  marginLeft: "30px",
-                                }}
-                              >
-                                <li>
+                      <div className="d-flex">
+                        <ul
+                          className="skill-dull-color"
+                          style={{
+                            listStyleType: "disc",
+                            marginLeft: "30px",
+                          }}
+                        >
+                          {item.items.map((item, i) => {
+                            return (
+                              <div key={i}>
+                                {item.innerHeading}
+                                <li className="mt-2">
                                   <span> {item.listParagraph}</span>
                                   {item.listSpan}
                                 </li>
-                              </ul>
-                            </div>
-                          </div>
-                        );
-                      })}
+                              </div>
+                            );
+                          })}
+                        </ul>
+                      </div>
                     </div>
                   </div>
                 );
@@ -346,26 +348,24 @@ const ServicesFiles = ({
                         visibility: isCollapseKeyOpen[i] ? "hidden" : "visible",
                       }}
                     >
-                      {deliverablesArray.map((item, i) => {
-                        return (
-                          <div key={i}>
-                            <div className="d-flex">
-                              <ul
-                                className="skill-dull-color"
-                                style={{
-                                  listStyleType: "disc",
-                                  marginLeft: "30px",
-                                }}
-                              >
-                                <li>
-                                  <span> {item.listParagraph}</span>
-                                  {item.listSpan}
-                                </li>
-                              </ul>
-                            </div>
-                          </div>
-                        );
-                      })}
+                      <div className="d-flex">
+                        <ul
+                          className="skill-dull-color"
+                          style={{
+                            listStyleType: "disc",
+                            marginLeft: "30px",
+                          }}
+                        >
+                          {item.items.map((item, i) => {
+                            return (
+                              <li className="mt-2" key={i}>
+                                <span> {item.listParagraph}</span>
+                                {item.listSpan}
+                              </li>
+                            );
+                          })}
+                        </ul>
+                      </div>
                     </div>
                   </div>
                 );

@@ -178,8 +178,63 @@
   color: #475467;
   font-weight: 300;
 }
-.skill-dull-color span {
+.skill-dull-color span,
+.skill-dull-color p {
   font-weight: 500;
+}
+.skill-dull-color p::before {
+  content: "\2192";
+  font-weight: 500;
+  font-size: 1.2rem;
+  margin-right: 10px;
+}
+/* Data analytics component */
+.dataAnalyticTopOverallDiv .service-files-inner {
+  background: #ffd0d9;
+}
+.dataAnalyticTopOverallDiv .service-files-inner .see-service-button {
+  color: #ff7d82;
+  background-color: #fff;
+}
+.dataAnalyticTopOverallDiv .service-files-inner .see-service-button:hover {
+  background-color: #ff7d82;
+  color: #fff;
+}
+.dataAnalyticTopOverallDiv
+  .skill-deliverable-set
+  .skill-deliverable-set-inner-div {
+  background: #ffd0d9;
+}
+.dataAnalyticTopOverallDiv .service-files-subscribe {
+  justify-content: center !important;
+  column-gap: 50px;
+}
+.dataAnalyticTopOverallDiv .service-files-subscribe .subscribe-third {
+  display: none !important;
+}
+/* cyber security component */
+.cyberSecurityTopOverallDiv .service-files-inner {
+  background: #d1ffd9;
+}
+.cyberSecurityTopOverallDiv .service-files-inner .see-service-button {
+  color: #25e44f;
+  background-color: #fff;
+}
+.cyberSecurityTopOverallDiv .service-files-inner .see-service-button:hover {
+  background-color: #25e44f;
+  color: #fff;
+}
+.cyberSecurityTopOverallDiv
+  .skill-deliverable-set
+  .skill-deliverable-set-inner-div {
+  background: #d1ffd9;
+}
+.cyberSecurityTopOverallDiv .service-files-subscribe {
+  justify-content: center !important;
+  column-gap: 50px;
+}
+.cyberSecurityTopOverallDiv .service-files-subscribe .subscribe-third {
+  display: none !important;
 }
 @media (max-width: 480px) {
   /* combined code */
