@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const ServiceSecondDiv = ({ heading, arrays, button }) => {
   return (
@@ -37,11 +38,11 @@ const ServiceSecondDiv = ({ heading, arrays, button }) => {
               </div>
 
               <div className="sds-learn-more-div d-flex justify-content-center">
-                <a className="" href={item.buttonLink}>
+                <Link className="" to={item.buttonLink}>
                   <button className="btn rounded-pill border-0  sds-learn-more">
                     {button}
                   </button>
-                </a>
+                </Link>
               </div>
             </div>
           );
