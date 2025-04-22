@@ -81,7 +81,10 @@
   background-color: #fff;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 768px) {
+  .marginButton {
+    margin-bottom: 50px;
+  }
   .homeBanner {
     height: 630px;
     align-items: end;
@@ -103,6 +106,7 @@
   }
   .on-demand {
     border-radius: 50px;
+    margin: 40px 0 80px;
   }
   .home-learn-more .quote-button,
   .on-demand-button {
@@ -121,8 +125,18 @@
   .on-demand div p {
     font-size: 0.875rem;
     font-weight: 300;
+    line-height: 27px;
   }
   .on-demand-top-div-img {
     margin-top: 35px;
+  }
+  .on-demand-top-div-img img {
+    width: 650px;
+  }
+}
+@media (max-width: 480px) {
+  .on-demand div p {
+    font-size: 0.875rem;
+    font-weight: 300;
   }
 }

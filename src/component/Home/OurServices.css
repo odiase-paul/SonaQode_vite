@@ -93,12 +93,20 @@
 }
 .how-we-work-background-header {
   width: 50%;
+  text-wrap-mode: wrap;
+  text-wrap-style: balance;
 }
-@media (max-width: 480px) {
+@media (max-width: 768px) {
+  .our-service .our-service-top-flex-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   .our-service-flex {
     display: grid;
     gap: 40px;
   }
+
   .marginTop {
     margin-top: 70px;
   }
@@ -131,8 +139,7 @@
     gap: 20px;
   }
   .how-we-work-background {
-    height: 80vh;
-    width: 100%;
+    height: fit-content;
     margin-top: 50px;
     border-radius: 40px;
   }

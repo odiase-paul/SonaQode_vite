@@ -10,7 +10,7 @@
   padding-top: 12rem;
   color: #fff;
 }
-.contact-us .text-sona-blue {
+.contact-us-flex-div .text-sona-blue {
   color: #0e6ba4;
 }
 .contact-us .h1-heading {
@@ -98,4 +98,30 @@
 }
 .contact-us-form .filledSubmitButton {
   opacity: 1;
+}
+@media (max-width: 768px) {
+  .contact-us {
+    height: fit-content;
+  }
+  .contact-us-inner-div {
+    flex-direction: column;
+    padding: 10rem 0 4rem !important;
+  }
+  .contact-us .first-column .h1-heading {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+  .contact-us .first-column p {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
+  .contact-us .first-column,
+  .contact-us .contact-us-form,
+  .contact-us-form form {
+    max-width: 100% !important;
+    width: 100% !important;
+  }
+  .contact-us .contact-us-form {
+    margin-top: 20px;
+  }
 }

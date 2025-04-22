@@ -38,7 +38,7 @@
   max-width: 24px;
   width: 100%;
 }
-@media (max-width: 480px) {
+@media (max-width: 768px) {
   .data-analytics .software-dev-image-div img {
     height: 65vh;
   }
@@ -57,5 +57,10 @@
   .data-analytics .how-to-initiate-div {
     background: #ffd0d9;
     border-radius: 50px;
+  }
+}
+@media (max-width: 480px) {
+  .data-analytics .software-dev-image-div img {
+    height: 50vh;
   }
 }

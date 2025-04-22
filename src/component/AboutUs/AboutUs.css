@@ -137,10 +137,10 @@
   max-height: 200px;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 768px) {
   .about-us-details {
     justify-content: end;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
   }
   .about-us-details h1 {
     width: 100%;

@@ -30,7 +30,7 @@
 .cyber-security-service .path-color {
   color: #25e44f;
 }
-@media (max-width: 480px) {
+@media (max-width: 768px) {
   .cyber-security-service .software-dev-image-div img {
     height: 65vh;
   }
@@ -45,5 +45,10 @@
   .cyber-security-service .experts-assistance-div {
     border-radius: 50px;
     padding: 0px 20px;
+  }
+}
+@media (max-width: 480px) {
+  .cyber-security-service .software-dev-image-div img {
+    height: 50vh;
   }
 }

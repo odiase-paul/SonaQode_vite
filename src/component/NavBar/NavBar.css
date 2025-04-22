@@ -90,8 +90,13 @@
   font-size: 33px;
   cursor: pointer;
 }
+.overlay .overlay-quote-button {
+  padding: 15px 35px;
+  background: #0e6ba4;
+  color: #fff;
+}
 
-@media (max-width: 480px) {
+@media (max-width: 768px) {
   .sonaQodeIcon {
     width: 180px;
   }

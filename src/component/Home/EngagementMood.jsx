@@ -15,7 +15,6 @@ import purpleIcon2 from "../../assets/icons/purple-40.851753fe.svg";
 import purpleIcon3 from "../../assets/icons/purple-60.987255f2.svg";
 import purpleIcon4 from "../../assets/icons/purple-80.4c1e16ea.svg";
 import purpleIcon5 from "../../assets/icons/purple-100.419b105d.svg";
-import { Link } from "react-router-dom";
 
 const EngagementMood = () => {
   const modelsDeetails = [

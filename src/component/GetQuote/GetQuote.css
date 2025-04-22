@@ -1,3 +1,5 @@
+/*NOTE: some styles are in contact.css */
+
 .get-quote {
   background: url("../../assets/contactUs/get-quote-banner.png");
   background-position: center;
@@ -6,13 +8,7 @@
   height: 200vh;
   box-shadow: 0px 0px 0px 0px #00000040, inset 0 0 0 1000px rgba(0, 0, 0, 0.3);
 }
-.contact-us-inner-div {
-  padding-top: 12rem;
-  color: #fff;
-}
-.get-quote .text-sona-blue {
-  color: #0e6ba4;
-}
+
 .get-quote .h1-heading {
   font-size: 40px;
 }
@@ -101,4 +97,25 @@
 }
 .contact-us-form .filledSubmitButton {
   opacity: 1;
+}
+@media (max-width: 768px) {
+  .get-quote {
+    height: fit-content;
+  }
+  .get-quote .first-column .h1-heading {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+  .get-quote .first-column p {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
+  .get-quote .first-column,
+  .get-quote .contact-us-form {
+    max-width: 100% !important;
+    width: 100% !important;
+  }
+  .get-quote .contact-us-form {
+    margin-top: 20px;
+  }
 }

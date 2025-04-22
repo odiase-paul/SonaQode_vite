@@ -98,7 +98,7 @@ const ServicesFiles = ({
         id="subscribe"
         className=" service-files-subscribe d-lg-flex justify-content-between align-items-center mx-4 marginButton"
       >
-        <div className="subscribe-first d-flex flex-column justify-content-center align-items-center">
+        <div className="subscribe-first d-flex flex-column justify-content-center align-items-center ">
           <h2>Subscribe</h2>
 
           <svg
@@ -150,9 +150,9 @@ const ServicesFiles = ({
           onClick={() => {
             setShowPopup("fullTime");
           }}
-          className="subscribe-second d-flex flex-column align-items-center justify-content-center"
+          className=" subscribe-second d-flex flex-column align-items-center justify-content-center"
         >
-          <p>
+          <p className="top-paragraph-ss">
             {fullTimeTopParagraph} <span>{fullTimeTopSpan}</span>
           </p>
           <p>{fullTimeBottomParagraph}</p>
@@ -163,7 +163,7 @@ const ServicesFiles = ({
           }}
           className="subscribe-third d-flex flex-column align-items-center justify-content-center"
         >
-          <p>
+          <p className="top-paragraph-ss">
             {partTimeTopParagraph} <span>{partTimeTopSpan}</span>
           </p>
           <p>{partTimeBottomParagraph}</p>
@@ -279,7 +279,7 @@ const ServicesFiles = ({
                       }`}
                       style={{
                         overflow: "hidden",
-                        maxHeight: isCollapseOpen[i] ? "15px" : "600px",
+                        maxHeight: isCollapseOpen[i] ? "15px" : "900px",
                         transition:
                           "max-height 0.4s ease, visibility 0.3s ease",
                         visibility: isCollapseOpen[i] ? "hidden" : "visible",
@@ -312,7 +312,7 @@ const ServicesFiles = ({
               })}
             </div>
           </div>
-          <div className="col-lg-6 d-lg-flex flex-column align-items-end  p-0">
+          <div className="deliverable-sm col-lg-6 d-lg-flex flex-column align-items-end  p-0">
             <div className=" mb-4 skill-deliverable-separate-div">
               <div>
                 <h2 className="d-flex justify-content-center mb-4 skill-key-heading">
@@ -342,7 +342,7 @@ const ServicesFiles = ({
                       }`}
                       style={{
                         overflow: "hidden",
-                        maxHeight: isCollapseKeyOpen[i] ? "15px" : "600px",
+                        maxHeight: isCollapseKeyOpen[i] ? "15px" : "900px",
                         transition:
                           "max-height 0.4s ease, visibility 0.3s ease",
                         visibility: isCollapseKeyOpen[i] ? "hidden" : "visible",

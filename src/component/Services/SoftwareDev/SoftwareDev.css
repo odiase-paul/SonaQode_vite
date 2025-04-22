@@ -143,7 +143,7 @@
 .software-development .path-color {
   color: #9747ff;
 }
-@media (max-width: 480px) {
+@media (max-width: 768px) {
   .experts-assistance-div .h1-heading {
     font-size: 1.5rem;
     line-height: 2rem;

@@ -113,7 +113,7 @@
 .second-child .engagement-onboarding-inner .second-div-expand {
   height: 70px;
 }
-@media (max-width: 480px) {
+@media (max-width: 768px) {
   .engagement-model h1 {
     text-align: center;
     line-height: 60px;

@@ -82,37 +82,39 @@ const OurServices = () => {
   return (
     <div id="our-services-link" className=" mx-4 our-service">
       <h1 className="d-flex justify-content-center mb-5 ">Our Services</h1>
-      <div className="d-lg-flex justify-content-between column-gap-5 our-service-flex">
-        {serviceDetails.map((items, i) => {
-          return (
-            <div
-              style={{ backgroundColor: items.color }}
-              className="our-service-div"
-              key={i}
-            >
-              <div>
-                <img src={items.imageFile} alt="" />
-              </div>
-              <div className="d-flex justify-content-center">
-                <header className="fs-5 my-4">{items.heading}</header>
-              </div>
-              <div className="hidden-container d-flex justify-content-center align-items-center flex-column px-4">
-                <p className="mb-4">{items.paragraph}</p>
+      <div className="our-service-top-flex-div">
+        <div className="d-lg-flex justify-content-between column-gap-5 our-service-flex">
+          {serviceDetails.map((items, i) => {
+            return (
+              <div
+                style={{ backgroundColor: items.color }}
+                className="our-service-div"
+                key={i}
+              >
+                <div>
+                  <img src={items.imageFile} alt="" />
+                </div>
+                <div className="d-flex justify-content-center">
+                  <header className="fs-5 my-4">{items.heading}</header>
+                </div>
+                <div className="hidden-container d-flex justify-content-center align-items-center flex-column px-4">
+                  <p className="mb-4">{items.paragraph}</p>
 
-                <div className="w-75 d-flex justify-content-center">
-                  <Link className="w-75" to={items.link}>
-                    <button
-                      style={{ backgroundColor: items.buttonBg }}
-                      className="w-100  border-0 rounded-pill py-2 text-white"
-                    >
-                      {items.button}
-                    </button>
-                  </Link>
+                  <div className="w-75 d-flex justify-content-center">
+                    <Link className="w-75" to={items.link}>
+                      <button
+                        style={{ backgroundColor: items.buttonBg }}
+                        className="w-100  border-0 rounded-pill py-2 text-white"
+                      >
+                        {items.button}
+                      </button>
+                    </Link>
+                  </div>
                 </div>
               </div>
-            </div>
-          );
-        })}
+            );
+          })}
+        </div>
       </div>
 
       <div className="marginTop">

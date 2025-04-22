@@ -161,7 +161,6 @@ const NavBar = () => {
           initial={{ x: "100%" }}
           animate={{ x: isOverlayOpen ? 0 : "100%" }}
           transition={{ type: "tween", duration: 0.5, ease: "easeInOut" }}
-          // collapse navbar-collapse
           className={`overlay `}
           id="navbarNavDropdown"
         >
@@ -194,8 +193,6 @@ const NavBar = () => {
                   className="nav-link dropdown-toggle "
                   href="#"
                   role="button"
-                  // data-bs-toggle="dropdown"
-                  // aria-expanded="false"
                 >
                   Services
                 </Link>
@@ -258,6 +255,16 @@ const NavBar = () => {
                   Contact Us
                 </Link>
               </li>
+              <div className="mt-4">
+                <Link to="getQuote">
+                  <button
+                    onClick={() => setIsOverlayOpen(false)}
+                    className=" rounded-pill border-0 overlay-quote-button"
+                  >
+                    Get a Quote
+                  </button>
+                </Link>
+              </div>
             </ul>
           </div>
         </motion.div>
