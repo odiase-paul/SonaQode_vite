@@ -207,7 +207,6 @@ const CorporateCulture = () => {
                     style={{
                       background: `url(${item.background})`,
                       backgroundPosition: "center",
-                      backgroundPosition: "center",
                       backgroundSize: "cover",
                     }}
                     key={i}
