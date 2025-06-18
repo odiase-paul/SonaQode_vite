@@ -15,7 +15,7 @@ const OurServices = () => {
       imageFile: Image1,
       heading: "Software Development",
       paragraph:
-        "At Sonaqode, we understand that developing robust and scalable software solutions is the backbone of every successful business. That's why we offer you access to our talented and highly skilled software engineers.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.",
       button: "Learn More",
       color: "#cdcbff",
       buttonBg: "#8581ff",
@@ -26,7 +26,7 @@ const OurServices = () => {
       imageFile: Image2,
       heading: "Data & Analytics",
       paragraph:
-        "At Sonaqode, we offer you the expertise of our talented data scientists, who can help you unlock the full potential of your data and derive actionable insights to drive business growth.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.",
       button: "Learn More",
       color: "#ffd0d9",
       buttonBg: "#ff96aa",
@@ -37,7 +37,7 @@ const OurServices = () => {
       imageFile: Image3,
       heading: "Cyber Security",
       paragraph:
-        "At Sonaqode we offer top-tier cybersecurity specialists who are dedicated to safeguarding your company's digital assets, minimising the risk of cyber threats, and ensuring the confidentiality and integrity of your data.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.",
       button: "Learn More",
       color: "#d1ffd9",
       buttonBg: "#69ff93",
@@ -52,7 +52,7 @@ const OurServices = () => {
       backGround: "#8497ff",
       heading: "Affordable Pricing",
       paragraph:
-        "Tap into our exceptional talent pool of skilled professionals at cost effective rates, boosting your profitability.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     },
     {
       id: 2,
@@ -60,7 +60,7 @@ const OurServices = () => {
       backGround: "#93ff98",
       heading: "Transparent Communication",
       paragraph:
-        "We believe in trust, accountability, and practicing clear and cohesive engagements with clients.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     },
     {
       id: 3,
@@ -68,7 +68,7 @@ const OurServices = () => {
       backGround: "#ffd556",
       heading: "Focus on Quality",
       paragraph:
-        "Driving excellence, continuously improving efficiency, and aligning practices with a commitment to long term success.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     },
     {
       id: 4,
@@ -76,7 +76,7 @@ const OurServices = () => {
       backGround: "#b4e7ff",
       heading: "Team Extension",
       paragraph:
-        "Connecting you with top-tier talents, seamlessly integrating them into your team, and ensuring effective contributions.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     },
   ];
   return (
@@ -120,12 +120,12 @@ const OurServices = () => {
       <div className="marginTop">
         <div className="why-sonaQode">
           <div className="why-sonaQuode-top-div d-flex justify-content-center align-items-center flex-column">
-            <h1 className="mb-3">Why SonaQode</h1>
+            <h1 className="mb-3">Why Pakh_Tech</h1>
             <p className="why-sonaQode-title mb-5 text-secondary">
-              Sonaqode is synonymous with top class quality and reliability,
-              featuring specialists with extensive experience across various
-              industries who are always prepared to address any challenges your
-              business faces promptly.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut.
             </p>
           </div>
           <div className="row gap-lg-5 why-sonaQode-flex">
@@ -150,10 +150,10 @@ const OurServices = () => {
           <div className=" how-we-work-background-header">
             <h1 className="text-white ">How We Work</h1>
             <p className="text-white mt-3 mb-lg-5 fw-light">
-              We recognise the unique needs of every business, understanding
-              that a one size fits all approach is inadequate. That's why we
-              emphasise simplicity and flexibility in our engagements, tailored
-              to your convenience on demand.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut.
             </p>
           </div>
           <div className="how-we-work-background-button">

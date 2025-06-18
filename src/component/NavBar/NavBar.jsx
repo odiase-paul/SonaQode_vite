@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./NavBar.css";
-import sonaQodeIcon from "../../image/sonaQodeIcon.webp";
+// import sonaQodeIcon from "../../image/sonaQodeIcon.webp";
 import { Link, useLocation } from "react-router-dom";
 import password from "../../assets/icons/password.png";
 import code from "../../assets/icons/code.png";
@@ -20,8 +20,9 @@ const NavBar = () => {
     <div className="">
       <nav className="navbar navbar-expand-lg navbar-dark  px-lg-4 fixed-top  mx-lg-4">
         <div className="container-fluid">
-          <Link className="navbar-brand fw-bold fs-2">
-            <img className="img-fluid sonaQodeIcon" src={sonaQodeIcon} alt="" />
+          <Link className="navbar-brand fw-bold fs-3">
+            PAKH_TECH
+            {/* <img className="img-fluid sonaQodeIcon" src={sonaQodeIcon} alt="" /> */}
           </Link>
           <button
             className="navbar-toggler p-0 border-0"

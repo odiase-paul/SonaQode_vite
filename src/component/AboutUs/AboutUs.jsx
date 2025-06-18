@@ -25,7 +25,7 @@ const AboutUs = () => {
       iconBackGround: "#8497ff",
       heading: "Mission",
       paragraph:
-        "To spearhead and propel digital services through AI and technology from Africa to the world.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt u.",
     },
     {
       id: 2,
@@ -34,7 +34,7 @@ const AboutUs = () => {
       iconBackGround: "#ff758f",
       heading: "Vision",
       paragraph:
-        "To be the leading technology staffing company committed in solving deep tech industry challenges.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut lab.",
     },
   ];
   const ourValues = [
@@ -44,7 +44,7 @@ const AboutUs = () => {
       backGround: "#8497ff",
       heading: "Client",
       paragraph:
-        "Clients are our most valuable asset. Providing client centric solutions means actively engaging with our customers, listening to their feedback, and understanding their pain points throughout the evaluation and process.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     },
     {
       id: 2,
@@ -52,7 +52,7 @@ const AboutUs = () => {
       backGround: "#ffbfab",
       heading: "Commitment",
       paragraph:
-        "Every project we undertake will be managed with the highest level of commitment. We are dedicated to achieving business goals, meeting deadlines, ensuring quality, and maximising productivity.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ut aliquip ex ea commodo consequat.",
     },
     {
       id: 3,
@@ -60,7 +60,7 @@ const AboutUs = () => {
       backGround: "#ffd556",
       heading: "Proactive",
       paragraph:
-        "We encourage a proactive, innovative, and initiative driven mindset within our workforce. Our goal is to maintain creativity while delivering services to our clients.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. laboris nisi ut aliquip ex ea commodo consequat.",
     },
     {
       id: 4,
@@ -68,7 +68,7 @@ const AboutUs = () => {
       backGround: "#b4e7ff",
       heading: "Progress",
       paragraph:
-        "A value we closely share with our clients is the importance of demonstrating progress throughout our collaboration. As a forward thinking and pragmatic organisation, we strive to embrace innovation and practicality.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.",
     },
     {
       id: 5,
@@ -76,7 +76,7 @@ const AboutUs = () => {
       backGround: "#ff9d0f",
       heading: "Trusted Partner",
       paragraph:
-        "Trust comes from being honest, reliable, and transparent. These integral values apply both internally and externally, guiding our relationships with clients and stakeholders. They are essential ingredients in developing success together.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     },
     {
       id: 6,
@@ -84,7 +84,7 @@ const AboutUs = () => {
       backGround: "#55c6ff",
       heading: "Excellence Service",
       paragraph:
-        "The highest quality is the best way to build long term relationships with our clients. This empowers our team to deliver excellence in every aspect of our business and fuels continuous improvement.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. laboris nisi ut aliquip ex ea commodo consequat.",
     },
   ];
 
@@ -95,7 +95,7 @@ const AboutUs = () => {
 
       heading: "Initiation",
       paragraph:
-        "We begin with an introductory call, diving into the intricate details of your organisation. Through dynamic brainstorming sessions, we uncover your specific staffing requirements, ethos, and expectations, accurately matching them with suitable professionals to provide solutions to your challenges.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     },
     {
       id: 2,
@@ -103,7 +103,7 @@ const AboutUs = () => {
 
       heading: "Discovery",
       paragraph:
-        "Building on the initial consultation, we embark on constructing a well planned and practical strategy, mapping out staffing solutions along with the resources, efficiency, and competency required to deliver outstanding results.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     },
     {
       id: 3,
@@ -111,7 +111,7 @@ const AboutUs = () => {
 
       heading: "Application",
       paragraph:
-        "This phase is dedicated to finding the ideal candidate for your organisation. We conduct a thorough vetting process, rigorously shortlisting the most compatible professionals who will seamlessly integrate with and complement your in-house team, delivering tangible results that align with your outlined expectations.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     },
     {
       id: 4,
@@ -119,7 +119,7 @@ const AboutUs = () => {
 
       heading: "Appraisal",
       paragraph:
-        "We understand the value of user insight. Our team assesses the achievement of your engagement against outlined requirements, evaluating performance and other functionalities. This ensures it continues to meet your changing requirements and maximises its positive impact on your processes, guaranteeing quality and long term reliability.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     },
   ];
 
@@ -130,17 +130,15 @@ const AboutUs = () => {
         <div className="d-flex flex-column text-white about-us-details mx-4 ">
           <h1>About Us</h1>
           <p>
-            Sonaqode is a tech professional staffing company dedicated to
-            helping businesses scale and grow. We focus on optimising budgets,
-            accelerating growth, and avoiding the pitfalls of traditional
-            outsourcing. By providing efficient, on-demand access to top-tier
-            talent from across Africa, we empower you to achieve exceptional
-            results swiftly.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.
           </p>
           <p>
-            We understand that achieving your success means securing the best
-            talent, and our dedicated team of specialists stands ready to
-            support you at every step.
+            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+            accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+            quae ab illo.
           </p>
         </div>
       </div>
@@ -173,9 +171,9 @@ const AboutUs = () => {
           <div className="why-sonaQuode-top-div d-flex justify-content-center align-items-center flex-column">
             <h1 className="mb-3">Our Values</h1>
             <p className="why-sonaQode-our-value-title mb-5">
-              We embody our values, driving us forward and defining our stance.
-              We actively drive every team member to achieve results and advance
-              our progress.
+              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+              accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+              quae ab illo inventore
             </p>
           </div>
           <div className="row gap-lg-5  why-sonaQode-flex">
@@ -201,12 +199,10 @@ const AboutUs = () => {
           <div className="">
             <h1 className="">Global Reach</h1>
             <p>
-              With our roots in the UK and Ghana's alignment with the GMT time
-              zone, we cater to the needs of global entities. Our specialists
-              work within your business hours, and our mature collaboration
-              strategies enable us to overcome geographic, language, and
-              cultural barriers, ensuring cohesive communication and exceptional
-              results.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
             </p>
           </div>
         </div>

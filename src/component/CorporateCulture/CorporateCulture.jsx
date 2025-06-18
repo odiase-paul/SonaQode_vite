@@ -27,33 +27,33 @@ const CorporateCulture = () => {
       id: 1,
       background: sdg8,
       heading: "SDG 8",
-      subHeading: "Decent Work and Economic Growth",
+      subHeading: "Lorem ipsum dolor sit amet",
       paragraph:
-        "We commit to investing in training and professional qualifications to empower team members to advance into senior and higher paying roles. Additionally, we will bolster the growth of our operational digital economy by enhancing citizen services and facilitating improved access to online services.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     },
     {
       id: 2,
       background: sdg3,
       heading: "SDG 3",
-      subHeading: "Good Health and Wellbeing",
+      subHeading: "Lorem ipsum dolor sit amet",
       paragraph:
-        "At the core of our organisation are people, and their well being is our utmost priority. We strive to foster open discussions about mental health, promote work life balance, incentivise healthy habits, and engage you with exciting wellness initiatives.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     },
     {
       id: 3,
       background: sdg5,
       heading: "SDG 5",
-      subHeading: "Gender Equality  ",
+      subHeading: "Lorem ipsum dolor sit amet",
       paragraph:
-        "We position ourselves as a progressive company and actively champion gender equality by promoting women's participation in the workforce and leadership roles. Fostering a diverse and inclusive workplace broadens perspectives, stimulates innovation, and enhances problem solving capabilities within the company.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     },
     {
       id: 4,
       background: sdg10,
       heading: "SDG 10",
-      subHeading: "Reduced Inequalies",
+      subHeading: "Lorem ipsum dolor sit amet",
       paragraph:
-        "We aim to create equal opportunities by educating youth about digital careers and providing mentorship to job seekers from underprivileged backgrounds, thereby leveling the playing field.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     },
   ];
   const ecscItems = [
@@ -89,7 +89,7 @@ const CorporateCulture = () => {
       backGround: "#8497ff",
       heading: "Cultivating Alliances",
       paragraph:
-        "Working with our partners to encourage investment and empowerment into communities and individuals with a focus on generating positive social and environmental outcomes.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Laboris nisi ut aliquip ex ea commodo consequat.",
     },
     {
       id: 2,
@@ -97,7 +97,7 @@ const CorporateCulture = () => {
       backGround: "#93ff98",
       heading: "Elevating Communities",
       paragraph:
-        "As a people first company, we value our local community and actively support it by investing in the tools, skills, and education needed to create communities that are inspired, capable, and confident in driving change.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut  commodo consequat.",
     },
     {
       id: 3,
@@ -105,7 +105,7 @@ const CorporateCulture = () => {
       backGround: "#ffd556",
       heading: "Amplifying Talents",
       paragraph:
-        "We support diverse talent to excel in their fields and become value driven role models and leaders who uplift and inspire their communities. These achievements are facilitated by offering individuals free opportunities for networking, internships, and personal development.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     },
     {
       id: 4,
@@ -113,7 +113,7 @@ const CorporateCulture = () => {
       backGround: "#b4e7ff",
       heading: "Supporting Charitable Causes",
       paragraph:
-        "As part of our mission to positively impact work, people, and the planet, we actively support charitable causes and none profit organisations. This includes staging fundraising events and providing material assistance to orphanages and children's facilities in various regions where we are present.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     },
   ];
   return (
@@ -122,14 +122,12 @@ const CorporateCulture = () => {
         <div className="d-flex flex-column text-white corporate-culture-details mx-4 ">
           <h1>Corporate Culture</h1>
           <p>
-            At Sonaqode, we integrate corporate social responsibility into our
-            strategy to enrich the lives of our team members and uplift the
-            communities in which we operate. We demonstrate our commitment
-            through proactive initiatives that promote social, economic,
-            educational, and environmental well-being at both local and global
-            levels. By establishing and pursuing clear objectives in these
-            areas, we reinforce our dedication to nurturing a thriving and
-            responsible workforce.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Sed ut perspiciatis unde omnis iste
+            natus error sit voluptatem accusantium doloremque laudantium, totam
+            rem aperiam, eaque ipsa quae ab illo inventore
           </p>
         </div>
       </section>
@@ -137,7 +135,7 @@ const CorporateCulture = () => {
       <ServiceTopDiv
         heading={"People"}
         paragraph={
-          "We cultivate a supportive and inclusive working environment that embodies our mission and values. We commit to continual improvement and development, believing in the power of individuals. By creating personal development plans, we unlock the true potential of every team member and are thrilled to be a company that attracts unique individuals who share a passion for tech and dream of making it more accessible to businesses needing support in today's worldwide digital transformation."
+          "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore"
         }
         softwareDevImage={peopleImage}
       />
@@ -148,9 +146,9 @@ const CorporateCulture = () => {
             <div className="pledges-inner-div-details d-flex flex-column justify-content-center align-items-center">
               <h2 className="h1-heading">Pledges</h2>
               <p>
-                Our company's commitments are aligned with several United
-                Nations Sustainable Development Goals (SDGs), a set of 17
-                objectives designed to promote global peace and prosperity.
+                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+                quae ab illo inventore
               </p>
             </div>
             <div className="pledges-flex-div d-flex justify-content-between align-items-center flex-wrap">
@@ -191,10 +189,11 @@ const CorporateCulture = () => {
             <div className="community-impact-inner-div-details d-flex flex-column justify-content-center align-items-center">
               <h2 className="h1-heading">Our Impact On Community</h2>
               <p>
-                Only through collaborative efforts can we generate a ripple
-                effect of prosperity and well being for all members of the
-                communities we impact. We accomplish this by actively supporting
-                individuals and communities in these areas.
+                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+                quae ab illo inventore. Sed ut perspiciatis unde omnis iste
+                natus error sit voluptatem accusantium doloremque laudantium,
+                illo inventore
               </p>
             </div>
             <div className="community-impact-flex-div d-flex justify-content-between align-items-center flex-wrap">

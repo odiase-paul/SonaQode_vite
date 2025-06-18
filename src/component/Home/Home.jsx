@@ -11,10 +11,10 @@ const Home = () => {
     <div className="marginButton">
       <div className="homeBanner d-flex justify-content-start align-items-lg-center">
         <div className="text-white home-banner-details mx-4">
-          <h1>Empowered by tech. Powered by talent.</h1>
+          <h1>Lorem ipsum dolor sit amet, consecte.</h1>
           <p>
-            We help organisations integrate remote support, accelerating
-            progress and uncovering opportunities.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor dolor sit amet, consec.
           </p>
           <div className="home-learn-more">
             <Link to="aboutUs">

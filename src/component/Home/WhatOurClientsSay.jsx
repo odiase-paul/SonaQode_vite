@@ -16,42 +16,42 @@ const WhatOurClientsSay = () => {
     {
       id: 1,
       icon: performr,
-      heading: "Fizel Nejabat",
-      subHeading: "CEO, Performr Group ltd",
+      heading: "Lorem ipsum",
+      subHeading: "CEO, Lorem ipsum ltd",
       countryName: "UK",
       countryFlag: uk,
       paragraph:
-        "I approached Sonaqode with a tight timeline to develop version 1 of our MVP. From the outset of the onboarding process, I was immediately impressed by their professionalism and thoroughness. They selected the most suitable candidates who demonstrated a clear understanding of our requirements and delivered on them effectively, maintaining excellent communication throughout. We were thrilled with the quality of the product delivered and are now collaborating on version 2.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     },
     {
       id: 2,
       icon: syka,
-      heading: "Nana Kwame Asare",
-      subHeading: "CEO, Syka Bank",
+      heading: "Lorem ipsum",
+      subHeading: "CEO, Lorem ipsum",
       countryName: "GHANA",
       countryFlag: ghana,
       paragraph:
-        "Working with Sonaqode to build Phase 1 of Syka's web application has been a great experience. The initiation process was seamless and comprehensive, demonstrating their commitment to quality. Their highly skilled and efficient developers delivered a product that aligned perfectly with our vision and expectations. We are very satisfied with the product and look forward to more engagements",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     },
     {
       id: 3,
       icon: mytech,
-      heading: "Amisi Kalonda",
-      subHeading: "Tech lead, My Tech Partner",
+      heading: "Lorem ipsum",
+      subHeading: "Tech lead, Lorem ipsum",
       countryName: "NETHERLANDS",
       countryFlag: netherland,
       paragraph:
-        "Connecting with them has been a joy. We've developed a fruitful collaboration and consider them part of our team. They are very hands-on and actively involved in conversations. They have provided us with highly qualified back-end engineers. Despite our demanding requirements, they remained adaptable and delivered without complaint, consistently meeting our expectations. It’s a pleasure working with Sonaqode. I would highly recommend them.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     },
     {
       id: 4,
       icon: afrimedia,
-      heading: "Kola Oluwole",
-      subHeading: "Director, Afrimedia Ltd",
+      heading: "Lorem ipsum",
+      subHeading: "Director, Lorem Ltd",
       countryName: "UK",
       countryFlag: uk,
       paragraph:
-        "We contacted Sonaqode because we needed a video editor to complete a project. They were very accommodating in understanding our business, goals, and roadmap. They kept things simple yet concise, which made me feel confident in the service I was acquiring. I commend their excellent communication. The editor assigned to us, Romeo, was a pleasure to work with. He had a proactive attitude and great enthusiasm.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     },
   ];
   const totalItems = items.length;
@@ -89,9 +89,8 @@ const WhatOurClientsSay = () => {
       <div className="d-flex flex-column align-items-center what-our-clients-say-top-div">
         <h1>What Our Clients Say</h1>
         <p>
-          Our testimonials highlight the trust, quality, and satisfaction that
-          define our work. Discover why our clients choose us to deliver
-          excellence.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua.
         </p>
       </div>
 

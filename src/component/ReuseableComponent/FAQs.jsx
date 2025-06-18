@@ -13,57 +13,55 @@ const FAQs = () => {
       minus: <RemoveCircleOutline />,
       heading: "How do you select your specialists?",
       collapseItem:
-        "We meticulously screen candidates, assessing their industry expertise, experience, and technical proficiency. This ensures our team is composed of individuals with diverse skill sets, fostering a well-rounded approach.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut  Excepteur sint occaecat cupidatat non.",
     },
     {
       id: 2,
       plus: <ControlPoint />,
       minus: <RemoveCircleOutline />,
-      heading:
-        "What happens if a team member needs to be replaced or added mid-project?",
+      heading: "Excepteur sint occaecat cupidatat non?",
       collapseItem:
-        "We recognise that project needs can shift. To accommodate changes, we promptly adjust our team by adding or replacing members, minimising disruptions to your project timeline. Our commitment is to remain adaptable and responsive to your evolving requirements.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut  Excepteur sint occaecat cupidatat non.",
     },
     {
       id: 3,
       plus: <ControlPoint />,
       minus: <RemoveCircleOutline />,
-      heading: "How experienced are your professionals?",
+      heading: "Excepteur sint occaecat cupidatat non?",
       collapseItem:
-        "Our professionals are highly experienced and have a proven track record in their respective fields. All are university graduates and bring a minimum of three years of industry experience. They combine a strong educational foundation with practical expertise, empowering them to craft high quality solutions tailored to your business's unique needs.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut  Excepteur sint occaecat cupidatat non.",
     },
     {
       id: 4,
       plus: <ControlPoint />,
       minus: <RemoveCircleOutline />,
-      heading: "How does the onboarding process work?",
+      heading: "Excepteur sint occaecat cupidatat non?",
       collapseItem:
-        "Our onboarding process is straightforward. Simply complete the subscription form, and we will contact you within a couple of hours to begin the welcome process. During this process, we will introduce your dedicated professional and establish a roadmap for delivering outstanding results.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut  Excepteur sint occaecat cupidatat non..",
     },
     {
       id: 5,
       plus: <ControlPoint />,
       minus: <RemoveCircleOutline />,
-      heading: "Where is Sonaqode based?",
+      heading: "Excepteur sint occaecat cupidatat non?",
       collapseItem:
-        "Our leadership team is based in London, UK, while most of our senior and mid level engineers operate from Accra, Ghana. We are committed to recruiting top-quality specialists from various countries across the African continent, enabling us to deliver exceptional remote work.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut  Excepteur sint occaecat cupidatat non.",
     },
     {
       id: 6,
       plus: <ControlPoint />,
       minus: <RemoveCircleOutline />,
-      heading:
-        "How can I ensure effective communication with a Developer & Engineer?",
+      heading: "Excepteur sint occaecat cupidatat non?",
       collapseItem:
-        "Maintaining clear and effective communication is crucial for the success of any project. You will have direct communication channels with the dedicated developers working on your project. We establish strong communication channels and regular check ins from the outset to ensure this. Our toolkit for effective communication usually includes tools Skype, Teams, Email, Zoom, Jira, Confluence, and Slack.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut  Excepteur sint occaecat cupidatat non.",
     },
     {
       id: 7,
       plus: <ControlPoint />,
       minus: <RemoveCircleOutline />,
-      heading: "Are your professionals fluent in English?",
+      heading: "Excepteur sint occaecat cupidatat non?",
       collapseItem:
-        "Yes, all our professionals are fluent in English, ensuring clear and effective communication throughout every stage of your project. This proficiency enables seamless collaboration and a thorough understanding of your requirements.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut  Excepteur sint occaecat cupidatat non.",
     },
   ];
 

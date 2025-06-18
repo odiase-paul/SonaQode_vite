@@ -24,7 +24,7 @@ const EngagementMood = () => {
       header: "Monthly Subscription",
       subHeader: "Hourly Based, Ongoing Contract",
       paragraph:
-        "Enjoy our subscription based, on-demand service that connects you with developers and engineers who deliver genuine results within a set monthly package of hours. Experience flexibility and convenience through regular communication with assigned team members and project managers.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur",
       icon1: icon1,
       icon2: icon2,
       icon3: icon3,
@@ -83,7 +83,7 @@ const EngagementMood = () => {
       header: "Scrum Team",
       subHeader: "Agile Methodology",
       paragraph:
-        "As your dedicated partner, we fulfil all your bespoke business needs, from ideation and prototyping to launch and ongoing maintenance. For bespoke projects requiring continuous iterations, we develop in two week sprints. With each sprint, we deliver a finished working product increment.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur",
       icon1: icon1,
       icon2: icon2,
       icon3: icon3,

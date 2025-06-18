@@ -131,7 +131,7 @@ const ContactUs = () => {
             })}
           </div>
           <p className="fw-light">Reach out to us at</p>
-          <h1 className="first-column-email">info@sonaqode.co.uk</h1>
+          <h1 className="first-column-email">paulakhere48@gmail.com</h1>
         </div>
         <div className="contact-us-form d-flex justify-content-end">
           <form

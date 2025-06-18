@@ -2,7 +2,7 @@ import React from "react";
 import "./Footer.css";
 import { Link } from "react-router-dom";
 import { FacebookOutlined, Instagram, LinkedIn } from "@mui/icons-material";
-import sonaQodeIcon from "../../image/sonaQodeIcon.webp";
+// import sonaQodeIcon from "../../image/sonaQodeIcon.webp";
 
 const Footer = ({}) => {
   const year = new Date().getFullYear();
@@ -13,8 +13,9 @@ const Footer = ({}) => {
         <h1>Let’s Build Something Great Together</h1>
       </div>
       <div className="footer-link-div d-lg-flex justify-content-between mt-5  pt-4">
-        <div className="image-logo">
-          <img className="img-fluid footer-logo" src={sonaQodeIcon} alt="" />
+        <div className="image-logo fw-bold fs-4">
+          {/* <img className="img-fluid footer-logo" src={sonaQodeIcon} alt="" /> */}
+          PAKH-TECT
         </div>
         <div className="d-flex flex-column gap-3">
           <header>Company</header>
@@ -51,7 +52,7 @@ const Footer = ({}) => {
         </div>
         <div className="d-flex flex-column gap-3">
           <header>Contact</header>
-          <span className="footer-link">London, England</span>
+          <span className="footer-link">Edo, Nigeria</span>
           <a className="footer-link" href="mailto:paulakhere48@gmail.com">
             paulakhere48@gmail.com
           </a>
@@ -69,7 +70,7 @@ const Footer = ({}) => {
         </div>
       </div>
       <div className="footer-reserved d-flex justify-content-center">
-        <p className="mt-4">© {year} SonaQode. All rights reserved</p>
+        <p className="mt-4">© {year} PAKH. All rights reserved</p>
       </div>
     </div>
   );
